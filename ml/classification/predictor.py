@@ -91,13 +91,21 @@ class BreedPredictor:
 
         # Load weights if checkpoint exists
         if model_path is None:
-            default_weights = Path("models/efficientnet_best.pth")
-            if default_weights.exists():
-                model_path = default_weights
+            if self.num_classes == 82:
+                default_weights = Path("models/efficientnet_b0_82_breeds_best.pth")
+                if default_weights.exists():
+                    model_path = default_weights
+            else:
+                default_weights = Path("models/efficientnet_best.pth")
+                if default_weights.exists():
+                    model_path = default_weights
 
         if model_path and Path(model_path).exists():
             checkpoint = torch.load(model_path, map_location=self.device, weights_only=True)
-            self.model.load_state_dict(checkpoint)
+            state_dict = checkpoint["model_state_dict"] if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint else checkpoint
+            if any(k.startswith("features.") or k.startswith("classifier.") for k in state_dict.keys()):
+                state_dict = {f"backbone.{k}": v for k, v in state_dict.items()}
+            self.model.load_state_dict(state_dict)
 
         self.model = self.model.to(self.device)
         self.model.eval()
@@ -106,16 +114,48 @@ class BreedPredictor:
         self, class_mapping_path: Optional[Union[Path, str]]
     ) -> Dict[int, Dict[str, str]]:
         """Load class mapping dictionary from JSON file or default map."""
+        raw_json = None
         if class_mapping_path and Path(class_mapping_path).exists():
             with open(class_mapping_path, "r", encoding="utf-8") as f:
                 raw_json = json.load(f)
-                return {int(k): v for k, v in raw_json.items()}
-
-        default_json = Path("configs/class_mapping.json")
-        if default_json.exists():
-            with open(default_json, "r", encoding="utf-8") as f:
+        elif Path("configs/class_mapping.json").exists():
+            with open("configs/class_mapping.json", "r", encoding="utf-8") as f:
                 raw_json = json.load(f)
-                return {int(k): v for k, v in raw_json.items()}
+
+        if raw_json is not None:
+            # Check if rich format like models/class_names.json
+            if "idx_to_breed_name" in raw_json and "idx_to_species" in raw_json:
+                mapping = {}
+                for k, bname in raw_json["idx_to_breed_name"].items():
+                    sp = raw_json["idx_to_species"].get(k, "cattle")
+                    mapping[int(k)] = {
+                        "breed_name": bname,
+                        "animal_type": sp,
+                        "display_name": f"{bname} {sp.capitalize()}",
+                    }
+                return mapping
+
+            # Check if dict of strings or dict of dicts
+            mapping = {}
+            for k, v in raw_json.items():
+                if not k.isdigit():
+                    continue
+                cls_idx = int(k)
+                if isinstance(v, dict):
+                    mapping[cls_idx] = {
+                        "breed_name": v.get("breed_name", f"Breed_{cls_idx}"),
+                        "animal_type": v.get("animal_type", "cattle"),
+                        "display_name": v.get("display_name", f"{v.get('breed_name', '')}"),
+                    }
+                elif isinstance(v, str):
+                    sp = "buffalo" if cls_idx < 23 else "cattle"
+                    mapping[cls_idx] = {
+                        "breed_name": v,
+                        "animal_type": sp,
+                        "display_name": f"{v} {sp.capitalize()}",
+                    }
+            if mapping:
+                return mapping
 
         return DEFAULT_CLASS_MAPPING
 

@@ -1,10 +1,11 @@
 """API Endpoint for AI Breed Recognition Prediction and Grad-CAM Explainability."""
 
 import base64
-from typing import Optional
+import uuid
+from typing import Optional, Dict
 import cv2
 import numpy as np
-from fastapi import APIRouter, File, UploadFile, Query, HTTPException, status, Depends
+from fastapi import APIRouter, File, UploadFile, Query, HTTPException, status, Depends, Request
 
 from app.schemas.predict import (
     PredictResponseSchema,
@@ -16,16 +17,32 @@ from ml.pipeline.inference_pipeline import BreedRecognitionPipeline, InferenceRe
 
 router = APIRouter(tags=["Breed Prediction"])
 
-# Global inference pipeline instance
-_pipeline_instance: Optional[BreedRecognitionPipeline] = None
+# Global inference pipeline instances by model version
+_pipelines: Dict[str, BreedRecognitionPipeline] = {}
+
+
+def get_pipeline(model_version: str = "efficientnet_b0_82_breeds_v1") -> BreedRecognitionPipeline:
+    """Retrieve or lazily initialize pipeline for specified model version."""
+    global _pipelines
+    v_key = model_version.lower()
+    if v_key not in _pipelines:
+        if "82" in v_key:
+            _pipelines[v_key] = BreedRecognitionPipeline(
+                efficientnet_model_path="models/efficientnet_b0_82_breeds_best.pth",
+                class_mapping_path="models/class_names.json",
+            )
+        else:
+            _pipelines[v_key] = BreedRecognitionPipeline(
+                efficientnet_model_path="models/efficientnet_best.pth",
+                class_mapping_path="configs/class_mapping.json",
+            )
+    return _pipelines[v_key]
 
 
 def get_inference_pipeline() -> BreedRecognitionPipeline:
-    """Dependency provider for BreedRecognitionPipeline instance."""
-    global _pipeline_instance
-    if _pipeline_instance is None:
-        _pipeline_instance = BreedRecognitionPipeline()
-    return _pipeline_instance
+    """Default dependency provider for backwards compatibility."""
+    return get_pipeline("efficientnet_b0_82_breeds_v1")
+
 
 
 MAX_UPLOAD_SIZE = 10 * 1024 * 1024  # 10 MB limit
@@ -57,11 +74,15 @@ def numpy_to_base64_png(img_rgb: np.ndarray) -> str:
     description="Upload an image file (multipart/form-data) to perform YOLO animal detection, EfficientNet-B0 breed classification, and optional Grad-CAM visual explainability.",
 )
 async def predict_breed(
+    request: Request,
     file: UploadFile = File(..., description="Uploaded animal image file"),
     generate_gradcam: bool = Query(
         True, description="Whether to compute Grad-CAM explainability heatmap overlay"
     ),
-    pipeline: BreedRecognitionPipeline = Depends(get_inference_pipeline),
+    model_version: str = Query(
+        "efficientnet_b0_82_breeds_v1",
+        description="Model version to use: 'efficientnet_b0_82_breeds_v1' or 'efficientnet_b0_6_breeds_v1'",
+    ),
 ) -> PredictResponseSchema:
     """Predict Indian Cattle and Buffalo breed from uploaded image file."""
     # 1. Validate File Format & Extension
@@ -99,7 +120,16 @@ async def predict_breed(
             detail=f"File size ({len(contents) / (1024*1024):.2f}MB) exceeds maximum limit of 10MB.",
         )
 
-    # 3. Execute End-to-End AI Inference Pipeline
+    # 3. Retrieve Pipeline for Chosen Model Version
+    try:
+        pipeline = get_pipeline(model_version)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Model initialization failure for version '{model_version}': {str(e)}",
+        )
+
+    # 4. Execute End-to-End AI Inference Pipeline
     pipeline_res: InferenceResult = pipeline.predict(
         source=contents, generate_gradcam=generate_gradcam
     )
@@ -110,7 +140,7 @@ async def predict_breed(
             detail="Uploaded file could not be decoded as a valid image.",
         )
 
-    # 4. Construct Grad-CAM Base64 Response Payload
+    # 5. Construct Grad-CAM Base64 Response Payload
     gradcam_schema: Optional[GradCAMResponseSchema] = None
     if pipeline_res.gradcam_output and "overlay_image" in pipeline_res.gradcam_output:
         overlay_rgb = pipeline_res.gradcam_output["overlay_image"]
@@ -131,7 +161,7 @@ async def predict_breed(
             heatmap_base64=heatmap_b64,
         )
 
-    # 5. Build Final Response DTO
+    # 6. Build Final Response DTO
     top_3_items = [
         Top3PredictionSchema(
             class_id=p["class_id"],
@@ -150,6 +180,10 @@ async def predict_breed(
         total_ms=pipeline_res.inference_time["total_ms"],
     )
 
+    req_id = request.headers.get("x-request-id") if request else None
+    if not req_id:
+        req_id = str(uuid.uuid4())
+
     return PredictResponseSchema(
         animal_type=pipeline_res.animal_type,
         animal_confidence=pipeline_res.animal_confidence,
@@ -161,4 +195,11 @@ async def predict_breed(
         inference_time=timing_schema,
         model_versions=pipeline_res.model_versions,
         gradcam_output=gradcam_schema,
+        model_version=model_version,
+        species=pipeline_res.animal_type,
+        confidence=pipeline_res.breed_confidence,
+        top_3=top_3_items,
+        latency=pipeline_res.inference_time["total_ms"],
+        status=pipeline_res.prediction_status,
+        request_id=req_id,
     )

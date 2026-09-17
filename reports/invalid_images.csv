@@ -1,0 +1,45 @@
+image_id,path,reason
+mehsana_0004,dataset/rejected/corrupted/mehsana_0004.jpg,Corrupted file header / unreadable by PIL/cv2
+bachaur_0002,dataset/rejected/duplicates/bachaur_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0002,dataset/rejected/duplicates/bargur_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0002_dfe610,dataset/rejected/duplicates/bargur_0002_dfe610.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0003,dataset/rejected/duplicates/bargur_0003.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0003_916215,dataset/rejected/duplicates/bargur_0003_916215.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0004,dataset/rejected/duplicates/bargur_0004.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0004_5866fa,dataset/rejected/duplicates/bargur_0004_5866fa.jpg,Identical SHA-256 or pHash <= 4 duplicate
+bargur_0005,dataset/rejected/duplicates/bargur_0005.jpg,Identical SHA-256 or pHash <= 4 duplicate
+ghumusari_0002,dataset/rejected/duplicates/ghumusari_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+ghumusari_0002_4daedf,dataset/rejected/duplicates/ghumusari_0002_4daedf.jpg,Identical SHA-256 or pHash <= 4 duplicate
+kankrej_0014,dataset/rejected/duplicates/kankrej_0014.jpg,Identical SHA-256 or pHash <= 4 duplicate
+kankrej_0014_0e008d,dataset/rejected/duplicates/kankrej_0014_0e008d.jpg,Identical SHA-256 or pHash <= 4 duplicate
+khariar_0002,dataset/rejected/duplicates/khariar_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+khariar_0002_535765,dataset/rejected/duplicates/khariar_0002_535765.jpg,Identical SHA-256 or pHash <= 4 duplicate
+kherigarh_0002,dataset/rejected/duplicates/kherigarh_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+koppal_0004,dataset/rejected/duplicates/koppal_0004.jpg,Identical SHA-256 or pHash <= 4 duplicate
+koppal_0004_15ee30,dataset/rejected/duplicates/koppal_0004_15ee30.jpg,Identical SHA-256 or pHash <= 4 duplicate
+kosali_0002,dataset/rejected/duplicates/kosali_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+manda_0005,dataset/rejected/duplicates/manda_0005.jpg,Identical SHA-256 or pHash <= 4 duplicate
+manda_0005_a36812,dataset/rejected/duplicates/manda_0005_a36812.jpg,Identical SHA-256 or pHash <= 4 duplicate
+mehsana_0006,dataset/rejected/duplicates/mehsana_0006.jpg,Identical SHA-256 or pHash <= 4 duplicate
+mehsana_0008,dataset/rejected/duplicates/mehsana_0008.jpg,Identical SHA-256 or pHash <= 4 duplicate
+mehsana_0009,dataset/rejected/duplicates/mehsana_0009.jpg,Identical SHA-256 or pHash <= 4 duplicate
+mewati_0002,dataset/rejected/duplicates/mewati_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+murrah_0011,dataset/rejected/duplicates/murrah_0011.jpg,Identical SHA-256 or pHash <= 4 duplicate
+murrah_0011_05531f,dataset/rejected/duplicates/murrah_0011_05531f.jpg,Identical SHA-256 or pHash <= 4 duplicate
+sanchori_0002,dataset/rejected/duplicates/sanchori_0002.jpg,Identical SHA-256 or pHash <= 4 duplicate
+tharparkar_0011,dataset/rejected/duplicates/tharparkar_0011.jpg,Identical SHA-256 or pHash <= 4 duplicate
+tharparkar_0013,dataset/rejected/duplicates/tharparkar_0013.jpg,Identical SHA-256 or pHash <= 4 duplicate
+tharparkar_0014,dataset/rejected/duplicates/tharparkar_0014.jpg,Identical SHA-256 or pHash <= 4 duplicate
+tharparkar_0015,dataset/rejected/duplicates/tharparkar_0015.jpg,Identical SHA-256 or pHash <= 4 duplicate
+tharparkar_0016,dataset/rejected/duplicates/tharparkar_0016.jpg,Identical SHA-256 or pHash <= 4 duplicate
+toda_0012,dataset/rejected/duplicates/toda_0012.jpg,Identical SHA-256 or pHash <= 4 duplicate
+toda_0012_412fe9,dataset/rejected/duplicates/toda_0012_412fe9.jpg,Identical SHA-256 or pHash <= 4 duplicate
+badri_0002,dataset/rejected/low_resolution/badri_0002.jpg,Resolution below 224x224 minimum threshold
+badri_0003,dataset/rejected/low_resolution/badri_0003.jpg,Resolution below 224x224 minimum threshold
+badri_0006,dataset/rejected/low_resolution/badri_0006.jpg,Resolution below 224x224 minimum threshold
+bargur_0005,dataset/rejected/low_resolution/bargur_0005.jpg,Resolution below 224x224 minimum threshold
+bargur_0007,dataset/rejected/low_resolution/bargur_0007.jpg,Resolution below 224x224 minimum threshold
+gir_0002,dataset/rejected/low_resolution/gir_0002.jpg,Resolution below 224x224 minimum threshold
+surti_0018,dataset/rejected/low_resolution/surti_0018.jpg,Resolution below 224x224 minimum threshold
+toda_0013,dataset/rejected/low_resolution/toda_0013.jpg,Resolution below 224x224 minimum threshold
+toda_0017,dataset/rejected/low_resolution/toda_0017.jpg,Resolution below 224x224 minimum threshold

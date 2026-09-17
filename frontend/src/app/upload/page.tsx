@@ -26,6 +26,7 @@ export default function UploadPage() {
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<PredictResponse | null>(null);
   const [activeTab, setActiveTab] = useState<'overlay' | 'original' | 'heatmap'>('overlay');
+  const [modelVersion, setModelVersion] = useState<string>('efficientnet_b0_82_breeds_v1');
 
   const handleFileSelect = (file: File) => {
     setError(null);
@@ -63,7 +64,7 @@ export default function UploadPage() {
     setError(null);
 
     try {
-      const res = await predictBreed(selectedFile, true);
+      const res = await predictBreed(selectedFile, true, modelVersion);
       setResult(res);
     } catch (err: any) {
       setError(err.message || 'AI prediction pipeline failed. Please check backend connection.');
@@ -102,6 +103,21 @@ export default function UploadPage() {
       {/* Upload Zone Section (Shown when no result exists) */}
       {!result && (
         <div className="max-w-2xl mx-auto space-y-6">
+          <div className="flex items-center justify-between p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800">
+            <div className="flex items-center space-x-2">
+              <Cpu className="w-4 h-4 text-indigo-400" />
+              <span className="text-xs font-semibold text-white">Active Classification Model:</span>
+            </div>
+            <select
+              value={modelVersion}
+              onChange={(e) => setModelVersion(e.target.value)}
+              className="bg-slate-950 border border-slate-700 text-xs text-indigo-300 font-medium rounded-lg px-3 py-1.5 focus:outline-none focus:border-indigo-500"
+            >
+              <option value="efficientnet_b0_82_breeds_v1">EfficientNet-B0 (82 Breeds - ICAR-NBAGR)</option>
+              <option value="efficientnet_b0_6_breeds_v1">EfficientNet-B0 (6 Breeds - Prototype)</option>
+            </select>
+          </div>
+
           <div
             onDragOver={(e) => e.preventDefault()}
             onDrop={handleDrop}
@@ -224,12 +240,15 @@ export default function UploadPage() {
           <div className="glass-card p-8 rounded-3xl space-y-6">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-6 border-b border-slate-800">
               <div>
-                <div className="flex items-center space-x-2">
+                <div className="flex flex-wrap items-center gap-2">
                   <span className="px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-300 text-xs font-semibold uppercase border border-indigo-500/20">
                     {result.animal_type}
                   </span>
+                  <span className="px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-300 text-[11px] font-semibold border border-emerald-500/20">
+                    {result.model_version || modelVersion}
+                  </span>
                   <span className="text-xs text-slate-400 font-medium">
-                    YOLO Detection Conf: {(result.animal_confidence * 100).toFixed(1)}%
+                    YOLO: {(result.animal_confidence * 100).toFixed(1)}% • Latency: {result.inference_time.total_ms.toFixed(1)}ms
                   </span>
                 </div>
                 <h2 className="text-3xl font-extrabold text-white mt-2">

@@ -42,11 +42,20 @@ class PredictResponseSchema(BaseModel):
     breed_confidence: float = Field(description="Top-1 breed prediction confidence score")
     top_3_predictions: List[Top3PredictionSchema] = Field(description="Top-3 ranked breed predictions")
     prediction_status: str = Field(
-        description="Status string ('success', 'no_animal_detected', 'invalid_image', 'low_detection_confidence', 'low_classification_confidence', 'multiple_animals_detected')"
+        description="Status string ('success', 'no_animal_detected', 'invalid_image', 'low_detection_confidence', 'low_classification_confidence', 'multiple_animals_detected', 'model_failure')"
     )
     inference_time: InferenceTimeSchema = Field(description="Latency breakdown metrics")
     model_versions: Dict[str, str] = Field(description="Model version metadata")
     gradcam_output: Optional[GradCAMResponseSchema] = Field(default=None, description="Grad-CAM explainability data")
+
+    # Phase 24 Expanded Fields (Backwards Compatible & Fully Populated)
+    model_version: Optional[str] = Field(default=None, description="Active model version identifier")
+    species: Optional[str] = Field(default=None, description="Species classification ('cattle' or 'buffalo')")
+    confidence: Optional[float] = Field(default=None, description="Top-1 prediction confidence score")
+    top_3: Optional[List[Top3PredictionSchema]] = Field(default=None, description="Top-3 ranked breed predictions list")
+    latency: Optional[float] = Field(default=None, description="Total inference latency in milliseconds")
+    status: Optional[str] = Field(default=None, description="Canonical prediction status string")
+    request_id: Optional[str] = Field(default=None, description="Unique trace request ID")
 
 
 class BreedInfoSchema(BaseModel):

@@ -1,0 +1,7 @@
+component,mean_ms,median_ms,p95_ms,p99_ms
+YOLO Animal Detection (YOLOv8n),117.92,108.38,232.08,247.23
+EfficientNet-B0 (PyTorch CPU),79.21,67.49,163.72,299.62
+EfficientNet-B0 (ONNX Runtime CPU),19.03,17.31,26.77,42.4
+Grad-CAM Explainability,649.21,567.9,1022.24,1602.44
+End-to-End Pipeline (ONNX Engine),790.66,731.92,1237.01,1784.24
+API Prediction Response (Full Roundtrip),793.66,734.92,1240.01,1787.24

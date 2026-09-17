@@ -1,0 +1,83 @@
+breed,species,train_count,validation_count,test_count,total_count
+Banni,buffalo,1,1,1,3
+Bargur,buffalo,1,1,1,3
+Bhadawari,buffalo,1,0,1,2
+Chhattisgarhi,buffalo,1,0,1,2
+Chilika,buffalo,1,0,1,2
+Dharwadi,buffalo,1,0,1,2
+Gojri,buffalo,1,0,1,2
+Gomanchali,buffalo,1,1,1,3
+Jaffarabadi,buffalo,1,0,1,2
+Kalahandi,buffalo,1,0,1,2
+Luit (Swamp),buffalo,1,0,1,2
+Manah,buffalo,1,0,1,2
+Manda,buffalo,21,5,5,31
+Marathwadi,buffalo,1,0,1,2
+Mehsana,buffalo,7,1,1,9
+Melghati,buffalo,1,0,1,2
+Murrah,buffalo,6,2,2,10
+Nagpuri,buffalo,7,2,2,11
+Nili Ravi,buffalo,1,1,1,3
+Pandharpuri,buffalo,1,0,1,2
+Purnathadi,buffalo,1,0,1,2
+Surti,buffalo,15,3,3,21
+Toda,buffalo,11,3,3,17
+Amritmahal,cattle,1,0,1,2
+Bachaur,cattle,1,0,1,2
+Badri,cattle,11,3,3,17
+Bargur,cattle,0,0,1,1
+Belahi,cattle,1,0,1,2
+Binjharpuri,cattle,1,0,1,2
+Dagri,cattle,1,0,1,2
+Dangi,cattle,3,1,1,5
+Deoni,cattle,1,1,1,3
+Gangatiri,cattle,6,1,1,8
+Gaolao,cattle,1,0,1,2
+Ghumusari,cattle,0,0,1,1
+Gir,cattle,21,5,5,31
+Hallikar,cattle,4,1,1,6
+Hariana,cattle,1,1,1,3
+Himachali Pahari,cattle,1,0,1,2
+Kangayam,cattle,11,3,3,17
+Kankrej,cattle,11,2,2,15
+Kathani,cattle,1,0,1,2
+Kenkatha,cattle,1,0,1,2
+Khariar,cattle,0,0,1,1
+Kherigarh,cattle,1,0,1,2
+Khillar,cattle,1,0,1,2
+Konkan Kapila,cattle,1,0,1,2
+Koppal,cattle,1,1,1,3
+Kosali,cattle,1,0,1,2
+Krishna Valley,cattle,1,0,1,2
+Ladakhi,cattle,3,1,1,5
+Lakhimi,cattle,1,0,1,2
+Mahakaushali,cattle,1,0,1,2
+Malnad Gidda,cattle,1,0,1,2
+Malvi,cattle,1,1,1,3
+Masilum,cattle,1,0,1,2
+Medini,cattle,1,1,1,3
+Mewati,cattle,1,0,1,2
+Motu,cattle,1,0,1,2
+Nagori,cattle,11,3,3,17
+Nari,cattle,1,1,1,3
+Nimari,cattle,8,2,2,12
+Ongole,cattle,21,4,4,29
+Periyar,cattle,4,1,1,6
+Poda Thurpu,cattle,1,0,1,2
+Ponwar,cattle,1,1,1,3
+Pulikulam,cattle,1,0,1,2
+Punganur,cattle,12,2,2,16
+Purnea,cattle,1,0,1,2
+Rathi,cattle,1,0,1,2
+Red Kandhari,cattle,1,1,1,3
+Red Sindhi,cattle,3,1,1,5
+Rohilkhandi,cattle,1,0,1,2
+Sahiwal,cattle,16,3,3,22
+Sanchori,cattle,1,0,1,2
+Shweta Kapila,cattle,1,0,1,2
+Siri,cattle,15,3,3,21
+Tharparkar,cattle,7,2,2,11
+Thutho,cattle,1,0,1,2
+Umarda,cattle,1,0,1,2
+Umblachery,cattle,1,0,1,2
+Vechur,cattle,13,3,3,19

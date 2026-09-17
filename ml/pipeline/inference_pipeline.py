@@ -84,6 +84,7 @@ class BreedRecognitionPipeline:
         )
         self.gradcam_engine = EfficientNetGradCAM(
             model=self.breed_predictor.model,
+            model_path=efficientnet_model_path,
             class_mapping_path=class_mapping_path,
             device=device,
         )
