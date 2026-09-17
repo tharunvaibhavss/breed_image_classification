@@ -1,0 +1,11 @@
+{
+  "species": "cattle",
+  "total_test_samples": 82,
+  "accuracy": 0.1098,
+  "macro_precision": 0.0351,
+  "macro_recall": 0.0558,
+  "macro_f1": 0.0408,
+  "top1_accuracy": 0.1098,
+  "top3_accuracy": 0.3049,
+  "misclassified_as_buffalo": 13
+}

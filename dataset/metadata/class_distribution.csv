@@ -1,0 +1,83 @@
+breed_id,breed_name,species,verified_image_count
+cow_amritmahal,Amritmahal,cattle,2
+cow_bachaur,Bachaur,cattle,2
+cow_bargur,Bargur,cattle,4
+cow_dangi,Dangi,cattle,5
+cow_deoni,Deoni,cattle,3
+cow_gaolao,Gaolao,cattle,2
+cow_gir,Gir,cattle,31
+cow_hallikar,Hallikar,cattle,6
+cow_hariana,Hariana,cattle,3
+cow_kangayam,Kangayam,cattle,17
+cow_kankrej,Kankrej,cattle,15
+cow_kenkatha,Kenkatha,cattle,2
+cow_kherigarh,Kherigarh,cattle,2
+cow_khillar,Khillar,cattle,2
+cow_krishna_valley,Krishna Valley,cattle,2
+cow_malvi,Malvi,cattle,3
+cow_mewati,Mewati,cattle,2
+cow_nagori,Nagori,cattle,17
+cow_nimari,Nimari,cattle,12
+cow_ongole,Ongole,cattle,29
+cow_ponwar,Ponwar,cattle,3
+cow_punganur,Punganur,cattle,16
+cow_rathi,Rathi,cattle,2
+cow_red_kandhari,Red Kandhari,cattle,3
+cow_red_sindhi,Red Sindhi,cattle,5
+cow_sahiwal,Sahiwal,cattle,22
+cow_siri,Siri,cattle,21
+cow_tharparkar,Tharparkar,cattle,11
+cow_umblachery,Umblachery,cattle,2
+cow_vechur,Vechur,cattle,19
+cow_motu,Motu,cattle,2
+cow_ghumusari,Ghumusari,cattle,1
+cow_binjharpuri,Binjharpuri,cattle,2
+cow_khariar,Khariar,cattle,1
+cow_pulikulam,Pulikulam,cattle,2
+cow_kosali,Kosali,cattle,2
+cow_malnad_gidda,Malnad Gidda,cattle,2
+cow_belahi,Belahi,cattle,2
+cow_gangatiri,Gangatiri,cattle,8
+cow_badri,Badri,cattle,17
+cow_lakhimi,Lakhimi,cattle,2
+cow_ladakhi,Ladakhi,cattle,5
+cow_konkan_kapila,Konkan Kapila,cattle,2
+cow_poda_thurpu,Poda Thurpu,cattle,2
+cow_nari,Nari,cattle,3
+cow_dagri,Dagri,cattle,2
+cow_thutho,Thutho,cattle,2
+cow_shweta_kapila,Shweta Kapila,cattle,2
+cow_himachali_pahari,Himachali Pahari,cattle,2
+cow_purnea,Purnea,cattle,2
+cow_kathani,Kathani,cattle,2
+cow_sanchori,Sanchori,cattle,2
+cow_masilum,Masilum,cattle,2
+cow_medini,Medini,cattle,3
+cow_rohilkhandi,Rohilkhandi,cattle,2
+cow_koppal,Koppal,cattle,3
+cow_mahakaushali,Mahakaushali,cattle,2
+cow_periyar,Periyar,cattle,6
+cow_umarda,Umarda,cattle,2
+buffalo_murrah,Murrah,buffalo,10
+buffalo_nili_ravi,Nili Ravi,buffalo,3
+buffalo_bhadawari,Bhadawari,buffalo,2
+buffalo_mehsana,Mehsana,buffalo,9
+buffalo_surti,Surti,buffalo,21
+buffalo_jaffarabadi,Jaffarabadi,buffalo,2
+buffalo_nagpuri,Nagpuri,buffalo,11
+buffalo_pandharpuri,Pandharpuri,buffalo,2
+buffalo_marathwadi,Marathwadi,buffalo,2
+buffalo_toda,Toda,buffalo,17
+buffalo_banni,Banni,buffalo,3
+buffalo_chilika,Chilika,buffalo,2
+buffalo_kalahandi,Kalahandi,buffalo,2
+buffalo_luit_swamp,Luit (Swamp),buffalo,2
+buffalo_bargur,Bargur,buffalo,4
+buffalo_chhattisgarhi,Chhattisgarhi,buffalo,2
+buffalo_gojri,Gojri,buffalo,2
+buffalo_dharwadi,Dharwadi,buffalo,2
+buffalo_manda,Manda,buffalo,31
+buffalo_purnathadi,Purnathadi,buffalo,2
+buffalo_manah,Manah,buffalo,2
+buffalo_melghati,Melghati,buffalo,2
+buffalo_gomanchali,Gomanchali,buffalo,3

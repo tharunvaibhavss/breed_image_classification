@@ -1,0 +1,25 @@
+{
+  "status": "PASSED",
+  "total_test_samples": 115,
+  "prediction_agreement_count": 115,
+  "prediction_agreement_rate_pct": 100.0,
+  "max_probability_difference": 1.683831e-06,
+  "mean_probability_difference": 1.669692e-08,
+  "pytorch_latency_ms": {
+    "mean": 84.92,
+    "median": 79.95,
+    "p95": 149.72,
+    "p99": 168.6
+  },
+  "onnx_latency_ms": {
+    "mean": 41.1,
+    "median": 29.11,
+    "p95": 91.26,
+    "p99": 141.84
+  },
+  "speedup_factor": 2.07,
+  "model_size_mb": {
+    "pytorch": 15.98,
+    "onnx": 15.68
+  }
+}

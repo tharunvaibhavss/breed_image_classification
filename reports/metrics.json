@@ -1,0 +1,22 @@
+{
+  "model": "EfficientNet-B0",
+  "num_classes": 82,
+  "test_samples_total": 115,
+  "overall_accuracy": 0.1304,
+  "macro_precision": 0.0363,
+  "weighted_precision": 0.0589,
+  "micro_precision": 0.1304,
+  "macro_recall": 0.0661,
+  "weighted_recall": 0.1304,
+  "macro_f1": 0.0443,
+  "weighted_f1": 0.0768,
+  "top_1_accuracy": 0.1304,
+  "top_3_accuracy": 0.3217,
+  "total_misclassifications": 100,
+  "cross_species_misclassifications": 20,
+  "species_accuracy": {
+    "cattle": 0.1098,
+    "buffalo": 0.1818
+  },
+  "evaluation_timestamp_utc": "2026-09-17 14:21:54 UTC"
+}

@@ -1,0 +1,32 @@
+{
+  "0": {
+    "breed_name": "Gir",
+    "animal_type": "cattle",
+    "display_name": "Gir Cattle"
+  },
+  "1": {
+    "breed_name": "Ongole",
+    "animal_type": "cattle",
+    "display_name": "Ongole Cattle"
+  },
+  "2": {
+    "breed_name": "Sahiwal",
+    "animal_type": "cattle",
+    "display_name": "Sahiwal Cattle"
+  },
+  "3": {
+    "breed_name": "Jaffarabadi",
+    "animal_type": "buffalo",
+    "display_name": "Jaffarabadi Buffalo"
+  },
+  "4": {
+    "breed_name": "Murrah",
+    "animal_type": "buffalo",
+    "display_name": "Murrah Buffalo"
+  },
+  "5": {
+    "breed_name": "Surti",
+    "animal_type": "buffalo",
+    "display_name": "Surti Buffalo"
+  }
+}

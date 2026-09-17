@@ -1,0 +1,83 @@
+class_index,breed_id,breed_name,species,precision,recall,f1_score,support
+0,buffalo_banni,Banni,buffalo,0.0,0.0,0.0,1
+1,buffalo_bargur,Bargur,buffalo,0.0,0.0,0.0,1
+2,buffalo_bhadawari,Bhadawari,buffalo,0.0,0.0,0.0,1
+3,buffalo_chhattisgarhi,Chhattisgarhi,buffalo,0.0,0.0,0.0,1
+4,buffalo_chilika,Chilika,buffalo,0.0,0.0,0.0,1
+5,buffalo_dharwadi,Dharwadi,buffalo,0.0,0.0,0.0,1
+6,buffalo_gojri,Gojri,buffalo,0.0,0.0,0.0,1
+7,buffalo_gomanchali,Gomanchali,buffalo,0.0,0.0,0.0,1
+8,buffalo_jaffarabadi,Jaffarabadi,buffalo,0.0,0.0,0.0,1
+9,buffalo_kalahandi,Kalahandi,buffalo,0.0,0.0,0.0,1
+10,buffalo_luit_swamp,Luit (Swamp),buffalo,0.0,0.0,0.0,1
+11,buffalo_manah,Manah,buffalo,0.0,0.0,0.0,1
+12,buffalo_manda,Manda,buffalo,0.1,0.4,0.16,5
+13,buffalo_marathwadi,Marathwadi,buffalo,0.0,0.0,0.0,1
+14,buffalo_mehsana,Mehsana,buffalo,0.0,0.0,0.0,1
+15,buffalo_melghati,Melghati,buffalo,0.0,0.0,0.0,1
+16,buffalo_murrah,Murrah,buffalo,0.0,0.0,0.0,2
+17,buffalo_nagpuri,Nagpuri,buffalo,0.2,0.5,0.2857,2
+18,buffalo_nili_ravi,Nili Ravi,buffalo,0.0,0.0,0.0,1
+19,buffalo_pandharpuri,Pandharpuri,buffalo,0.0,0.0,0.0,1
+20,buffalo_purnathadi,Purnathadi,buffalo,0.0,0.0,0.0,1
+21,buffalo_surti,Surti,buffalo,0.2,0.3333,0.25,3
+22,buffalo_toda,Toda,buffalo,0.2857,0.6667,0.4,3
+23,cow_amritmahal,Amritmahal,cattle,0.0,0.0,0.0,1
+24,cow_bachaur,Bachaur,cattle,0.0,0.0,0.0,1
+25,cow_badri,Badri,cattle,0.0,0.0,0.0,3
+26,cow_bargur,Bargur,cattle,0.0,0.0,0.0,1
+27,cow_belahi,Belahi,cattle,0.0,0.0,0.0,1
+28,cow_binjharpuri,Binjharpuri,cattle,0.0,0.0,0.0,1
+29,cow_dagri,Dagri,cattle,0.0,0.0,0.0,1
+30,cow_dangi,Dangi,cattle,0.0,0.0,0.0,1
+31,cow_deoni,Deoni,cattle,0.0,0.0,0.0,1
+32,cow_gangatiri,Gangatiri,cattle,0.0,0.0,0.0,1
+33,cow_gaolao,Gaolao,cattle,0.0,0.0,0.0,1
+34,cow_ghumusari,Ghumusari,cattle,0.0,0.0,0.0,1
+35,cow_gir,Gir,cattle,0.1364,0.6,0.2222,5
+36,cow_hallikar,Hallikar,cattle,0.0,0.0,0.0,1
+37,cow_hariana,Hariana,cattle,0.0,0.0,0.0,1
+38,cow_himachali_pahari,Himachali Pahari,cattle,0.0,0.0,0.0,1
+39,cow_kangayam,Kangayam,cattle,0.0,0.0,0.0,3
+40,cow_kankrej,Kankrej,cattle,0.0,0.0,0.0,2
+41,cow_kathani,Kathani,cattle,0.0,0.0,0.0,1
+42,cow_kenkatha,Kenkatha,cattle,0.0,0.0,0.0,1
+43,cow_khariar,Khariar,cattle,0.0,0.0,0.0,1
+44,cow_kherigarh,Kherigarh,cattle,0.0,0.0,0.0,1
+45,cow_khillar,Khillar,cattle,0.0,0.0,0.0,1
+46,cow_konkan_kapila,Konkan Kapila,cattle,0.0,0.0,0.0,1
+47,cow_koppal,Koppal,cattle,0.0,0.0,0.0,1
+48,cow_kosali,Kosali,cattle,0.0,0.0,0.0,1
+49,cow_krishna_valley,Krishna Valley,cattle,0.0,0.0,0.0,1
+50,cow_ladakhi,Ladakhi,cattle,1.0,1.0,1.0,1
+51,cow_lakhimi,Lakhimi,cattle,0.0,0.0,0.0,1
+52,cow_mahakaushali,Mahakaushali,cattle,0.0,0.0,0.0,1
+53,cow_malnad_gidda,Malnad Gidda,cattle,0.0,0.0,0.0,1
+54,cow_malvi,Malvi,cattle,0.0,0.0,0.0,1
+55,cow_masilum,Masilum,cattle,0.0,0.0,0.0,1
+56,cow_medini,Medini,cattle,0.0,0.0,0.0,1
+57,cow_mewati,Mewati,cattle,0.0,0.0,0.0,1
+58,cow_motu,Motu,cattle,0.0,0.0,0.0,1
+59,cow_nagori,Nagori,cattle,0.3333,0.3333,0.3333,3
+60,cow_nari,Nari,cattle,0.0,0.0,0.0,1
+61,cow_nimari,Nimari,cattle,0.5,1.0,0.6667,2
+62,cow_ongole,Ongole,cattle,0.0769,0.25,0.1176,4
+63,cow_periyar,Periyar,cattle,0.0,0.0,0.0,1
+64,cow_poda_thurpu,Poda Thurpu,cattle,0.0,0.0,0.0,1
+65,cow_ponwar,Ponwar,cattle,0.0,0.0,0.0,1
+66,cow_pulikulam,Pulikulam,cattle,0.0,0.0,0.0,1
+67,cow_punganur,Punganur,cattle,0.0,0.0,0.0,2
+68,cow_purnea,Purnea,cattle,0.0,0.0,0.0,1
+69,cow_rathi,Rathi,cattle,0.0,0.0,0.0,1
+70,cow_red_kandhari,Red Kandhari,cattle,0.0,0.0,0.0,1
+71,cow_red_sindhi,Red Sindhi,cattle,0.0,0.0,0.0,1
+72,cow_rohilkhandi,Rohilkhandi,cattle,0.0,0.0,0.0,1
+73,cow_sahiwal,Sahiwal,cattle,0.1429,0.3333,0.2,3
+74,cow_sanchori,Sanchori,cattle,0.0,0.0,0.0,1
+75,cow_shweta_kapila,Shweta Kapila,cattle,0.0,0.0,0.0,1
+76,cow_siri,Siri,cattle,0.0,0.0,0.0,3
+77,cow_tharparkar,Tharparkar,cattle,0.0,0.0,0.0,2
+78,cow_thutho,Thutho,cattle,0.0,0.0,0.0,1
+79,cow_umarda,Umarda,cattle,0.0,0.0,0.0,1
+80,cow_umblachery,Umblachery,cattle,0.0,0.0,0.0,1
+81,cow_vechur,Vechur,cattle,0.0,0.0,0.0,3

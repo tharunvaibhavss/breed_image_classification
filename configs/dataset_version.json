@@ -1,0 +1,20 @@
+{
+  "version_id": "dataset_v001",
+  "phase": "Phase 2 - Dataset Validation, Leakage Analysis, YOLO Annotation Preparation, and Data Splitting",
+  "description": "Dataset v0.0.1 release with group-aware leakage prevention, 70/15/15 train/val/test split, and YOLO detection prep",
+  "created_at": "2026-08-26T18:18:00Z",
+  "random_seed": 42,
+  "split_ratios": {
+    "train": 0.70,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "yolo_classes": {
+    "0": "cattle",
+    "1": "buffalo"
+  },
+  "min_resolution": {
+    "min_width": 64,
+    "min_height": 64
+  }
+}

@@ -1,0 +1,116 @@
+image_id,relative_path,species,breed_id,breed_name
+BUF_BANNI_0003,cleaned/buffalo/banni/banni_0003.jpg,buffalo,buffalo_banni,Banni
+BUF_BARGUR_0007,cleaned/buffalo/bargur/bargur_0007.jpg,buffalo,buffalo_bargur,Bargur
+BUF_BHADAWARI_0002,cleaned/buffalo/bhadawari/bhadawari_0002.jpg,buffalo,buffalo_bhadawari,Bhadawari
+BUF_CHHATTISGARHI_0002,cleaned/buffalo/chhattisgarhi/chhattisgarhi_0002.jpg,buffalo,buffalo_chhattisgarhi,Chhattisgarhi
+BUF_CHILIKA_0002,cleaned/buffalo/chilika/chilika_0002.jpg,buffalo,buffalo_chilika,Chilika
+BUF_DHARWADI_0002,cleaned/buffalo/dharwadi/dharwadi_0002.jpg,buffalo,buffalo_dharwadi,Dharwadi
+BUF_GOJRI_0002,cleaned/buffalo/gojri/gojri_0002.jpg,buffalo,buffalo_gojri,Gojri
+BUF_GOMANCHALI_0003,cleaned/buffalo/gomanchali/gomanchali_0003.jpg,buffalo,buffalo_gomanchali,Gomanchali
+BUF_JAFFARABADI_0002,cleaned/buffalo/jaffarabadi/jaffarabadi_0002.jpg,buffalo,buffalo_jaffarabadi,Jaffarabadi
+BUF_KALAHANDI_0002,cleaned/buffalo/kalahandi/kalahandi_0002.jpg,buffalo,buffalo_kalahandi,Kalahandi
+BUF_LUIT_SWAMP_0002,cleaned/buffalo/luit_swamp/luit_swamp_0002.jpg,buffalo,buffalo_luit_swamp,Luit (Swamp)
+BUF_MANAH_0002,cleaned/buffalo/manah/manah_0002.jpg,buffalo,buffalo_manah,Manah
+BUF_MANDA_0028,cleaned/buffalo/manda/manda_0028.jpg,buffalo,buffalo_manda,Manda
+BUF_MANDA_0029,cleaned/buffalo/manda/manda_0029.jpg,buffalo,buffalo_manda,Manda
+BUF_MANDA_0030,cleaned/buffalo/manda/manda_0030.jpg,buffalo,buffalo_manda,Manda
+BUF_MANDA_0031,cleaned/buffalo/manda/manda_0031.jpg,buffalo,buffalo_manda,Manda
+BUF_MANDA_0032,cleaned/buffalo/manda/manda_0032.jpg,buffalo,buffalo_manda,Manda
+BUF_MARATHWADI_0002,cleaned/buffalo/marathwadi/marathwadi_0002.jpg,buffalo,buffalo_marathwadi,Marathwadi
+BUF_MEHSANA_0012,cleaned/buffalo/mehsana/mehsana_0012.jpg,buffalo,buffalo_mehsana,Mehsana
+BUF_MELGHATI_0002,cleaned/buffalo/melghati/melghati_0002.jpg,buffalo,buffalo_melghati,Melghati
+BUF_MURRAH_0009,cleaned/buffalo/murrah/murrah_0009.jpg,buffalo,buffalo_murrah,Murrah
+BUF_MURRAH_0010,cleaned/buffalo/murrah/murrah_0010.jpg,buffalo,buffalo_murrah,Murrah
+BUF_NAGPURI_0010,cleaned/buffalo/nagpuri/nagpuri_0010.jpg,buffalo,buffalo_nagpuri,Nagpuri
+BUF_NAGPURI_0011,cleaned/buffalo/nagpuri/nagpuri_0011.jpg,buffalo,buffalo_nagpuri,Nagpuri
+BUF_NILI_RAVI_0003,cleaned/buffalo/nili_ravi/nili_ravi_0003.jpg,buffalo,buffalo_nili_ravi,Nili Ravi
+BUF_PANDHARPURI_0002,cleaned/buffalo/pandharpuri/pandharpuri_0002.jpg,buffalo,buffalo_pandharpuri,Pandharpuri
+BUF_PURNATHADI_0002,cleaned/buffalo/purnathadi/purnathadi_0002.jpg,buffalo,buffalo_purnathadi,Purnathadi
+BUF_SURTI_0019,cleaned/buffalo/surti/surti_0019.jpg,buffalo,buffalo_surti,Surti
+BUF_SURTI_0020,cleaned/buffalo/surti/surti_0020.jpg,buffalo,buffalo_surti,Surti
+BUF_SURTI_0021,cleaned/buffalo/surti/surti_0021.jpg,buffalo,buffalo_surti,Surti
+BUF_TODA_0016,cleaned/buffalo/toda/toda_0016.jpg,buffalo,buffalo_toda,Toda
+BUF_TODA_0017,cleaned/buffalo/toda/toda_0017.jpg,buffalo,buffalo_toda,Toda
+BUF_TODA_0018,cleaned/buffalo/toda/toda_0018.jpg,buffalo,buffalo_toda,Toda
+COW_AMRITMAHAL_0002,cleaned/cattle/amritmahal/amritmahal_0002.jpg,cattle,cow_amritmahal,Amritmahal
+COW_BACHAUR_0002,cleaned/cattle/bachaur/bachaur_0002.jpg,cattle,cow_bachaur,Bachaur
+COW_BADRI_0015,cleaned/cattle/badri/badri_0015.jpg,cattle,cow_badri,Badri
+COW_BADRI_0016,cleaned/cattle/badri/badri_0016.jpg,cattle,cow_badri,Badri
+COW_BADRI_0017,cleaned/cattle/badri/badri_0017.jpg,cattle,cow_badri,Badri
+COW_BARGUR_0001,cleaned/cattle/bargur/bargur_0001.jpg,cattle,cow_bargur,Bargur
+COW_BELAHI_0002,cleaned/cattle/belahi/belahi_0002.jpg,cattle,cow_belahi,Belahi
+COW_BINJHARPURI_0002,cleaned/cattle/binjharpuri/binjharpuri_0002.jpg,cattle,cow_binjharpuri,Binjharpuri
+COW_DAGRI_0002,cleaned/cattle/dagri/dagri_0002.jpg,cattle,cow_dagri,Dagri
+COW_DANGI_0005,cleaned/cattle/dangi/dangi_0005.jpg,cattle,cow_dangi,Dangi
+COW_DEONI_0003,cleaned/cattle/deoni/deoni_0003.jpg,cattle,cow_deoni,Deoni
+COW_GANGATIRI_0008,cleaned/cattle/gangatiri/gangatiri_0008.jpg,cattle,cow_gangatiri,Gangatiri
+COW_GAOLAO_0002,cleaned/cattle/gaolao/gaolao_0002.jpg,cattle,cow_gaolao,Gaolao
+COW_GHUMUSARI_0001,cleaned/cattle/ghumusari/ghumusari_0001.jpg,cattle,cow_ghumusari,Ghumusari
+COW_GIR_0027,cleaned/cattle/gir/gir_0027.jpg,cattle,cow_gir,Gir
+COW_GIR_0028,cleaned/cattle/gir/gir_0028.jpg,cattle,cow_gir,Gir
+COW_GIR_0029,cleaned/cattle/gir/gir_0029.jpg,cattle,cow_gir,Gir
+COW_GIR_0030,cleaned/cattle/gir/gir_0030.jpg,cattle,cow_gir,Gir
+COW_GIR_0031,cleaned/cattle/gir/gir_0031.jpg,cattle,cow_gir,Gir
+COW_HALLIKAR_0006,cleaned/cattle/hallikar/hallikar_0006.jpg,cattle,cow_hallikar,Hallikar
+COW_HARIANA_0003,cleaned/cattle/hariana/hariana_0003.jpg,cattle,cow_hariana,Hariana
+COW_HIMACHALI_PAHARI_0002,cleaned/cattle/himachali_pahari/himachali_pahari_0002.jpg,cattle,cow_himachali_pahari,Himachali Pahari
+COW_KANGAYAM_0015,cleaned/cattle/kangayam/kangayam_0015.jpg,cattle,cow_kangayam,Kangayam
+COW_KANGAYAM_0016,cleaned/cattle/kangayam/kangayam_0016.jpg,cattle,cow_kangayam,Kangayam
+COW_KANGAYAM_0017,cleaned/cattle/kangayam/kangayam_0017.jpg,cattle,cow_kangayam,Kangayam
+COW_KANKREJ_0015,cleaned/cattle/kankrej/kankrej_0015.jpg,cattle,cow_kankrej,Kankrej
+COW_KANKREJ_0016,cleaned/cattle/kankrej/kankrej_0016.jpg,cattle,cow_kankrej,Kankrej
+COW_KATHANI_0002,cleaned/cattle/kathani/kathani_0002.jpg,cattle,cow_kathani,Kathani
+COW_KENKATHA_0002,cleaned/cattle/kenkatha/kenkatha_0002.jpg,cattle,cow_kenkatha,Kenkatha
+COW_KHARIAR_0001,cleaned/cattle/khariar/khariar_0001.jpg,cattle,cow_khariar,Khariar
+COW_KHERIGARH_0002,cleaned/cattle/kherigarh/kherigarh_0002.jpg,cattle,cow_kherigarh,Kherigarh
+COW_KHILLAR_0002,cleaned/cattle/khillar/khillar_0002.jpg,cattle,cow_khillar,Khillar
+COW_KONKAN_KAPILA_0002,cleaned/cattle/konkan_kapila/konkan_kapila_0002.jpg,cattle,cow_konkan_kapila,Konkan Kapila
+COW_KOPPAL_0003,cleaned/cattle/koppal/koppal_0003.jpg,cattle,cow_koppal,Koppal
+COW_KOSALI_0002,cleaned/cattle/kosali/kosali_0002.jpg,cattle,cow_kosali,Kosali
+COW_KRISHNA_VALLEY_0002,cleaned/cattle/krishna_valley/krishna_valley_0002.jpg,cattle,cow_krishna_valley,Krishna Valley
+COW_LADAKHI_0005,cleaned/cattle/ladakhi/ladakhi_0005.jpg,cattle,cow_ladakhi,Ladakhi
+COW_LAKHIMI_0002,cleaned/cattle/lakhimi/lakhimi_0002.jpg,cattle,cow_lakhimi,Lakhimi
+COW_MAHAKAUSHALI_0002,cleaned/cattle/mahakaushali/mahakaushali_0002.jpg,cattle,cow_mahakaushali,Mahakaushali
+COW_MALNAD_GIDDA_0002,cleaned/cattle/malnad_gidda/malnad_gidda_0002.jpg,cattle,cow_malnad_gidda,Malnad Gidda
+COW_MALVI_0003,cleaned/cattle/malvi/malvi_0003.jpg,cattle,cow_malvi,Malvi
+COW_MASILUM_0002,cleaned/cattle/masilum/masilum_0002.jpg,cattle,cow_masilum,Masilum
+COW_MEDINI_0003,cleaned/cattle/medini/medini_0003.jpg,cattle,cow_medini,Medini
+COW_MEWATI_0002,cleaned/cattle/mewati/mewati_0002.jpg,cattle,cow_mewati,Mewati
+COW_MOTU_0002,cleaned/cattle/motu/motu_0002.jpg,cattle,cow_motu,Motu
+COW_NAGORI_0015,cleaned/cattle/nagori/nagori_0015.jpg,cattle,cow_nagori,Nagori
+COW_NAGORI_0016,cleaned/cattle/nagori/nagori_0016.jpg,cattle,cow_nagori,Nagori
+COW_NAGORI_0017,cleaned/cattle/nagori/nagori_0017.jpg,cattle,cow_nagori,Nagori
+COW_NARI_0003,cleaned/cattle/nari/nari_0003.jpg,cattle,cow_nari,Nari
+COW_NIMARI_0011,cleaned/cattle/nimari/nimari_0011.jpg,cattle,cow_nimari,Nimari
+COW_NIMARI_0012,cleaned/cattle/nimari/nimari_0012.jpg,cattle,cow_nimari,Nimari
+COW_ONGOLE_0026,cleaned/cattle/ongole/ongole_0026.jpg,cattle,cow_ongole,Ongole
+COW_ONGOLE_0027,cleaned/cattle/ongole/ongole_0027.jpg,cattle,cow_ongole,Ongole
+COW_ONGOLE_0028,cleaned/cattle/ongole/ongole_0028.jpg,cattle,cow_ongole,Ongole
+COW_ONGOLE_0029,cleaned/cattle/ongole/ongole_0029.jpg,cattle,cow_ongole,Ongole
+COW_PERIYAR_0006,cleaned/cattle/periyar/periyar_0006.jpg,cattle,cow_periyar,Periyar
+COW_PODA_THURPU_0002,cleaned/cattle/poda_thurpu/poda_thurpu_0002.jpg,cattle,cow_poda_thurpu,Poda Thurpu
+COW_PONWAR_0003,cleaned/cattle/ponwar/ponwar_0003.jpg,cattle,cow_ponwar,Ponwar
+COW_PULIKULAM_0002,cleaned/cattle/pulikulam/pulikulam_0002.jpg,cattle,cow_pulikulam,Pulikulam
+COW_PUNGANUR_0015,cleaned/cattle/punganur/punganur_0015.jpg,cattle,cow_punganur,Punganur
+COW_PUNGANUR_0016,cleaned/cattle/punganur/punganur_0016.jpg,cattle,cow_punganur,Punganur
+COW_PURNEA_0002,cleaned/cattle/purnea/purnea_0002.jpg,cattle,cow_purnea,Purnea
+COW_RATHI_0002,cleaned/cattle/rathi/rathi_0002.jpg,cattle,cow_rathi,Rathi
+COW_RED_KANDHARI_0003,cleaned/cattle/red_kandhari/red_kandhari_0003.jpg,cattle,cow_red_kandhari,Red Kandhari
+COW_RED_SINDHI_0005,cleaned/cattle/red_sindhi/red_sindhi_0005.jpg,cattle,cow_red_sindhi,Red Sindhi
+COW_ROHILKHANDI_0002,cleaned/cattle/rohilkhandi/rohilkhandi_0002.jpg,cattle,cow_rohilkhandi,Rohilkhandi
+COW_SAHIWAL_0020,cleaned/cattle/sahiwal/sahiwal_0020.jpg,cattle,cow_sahiwal,Sahiwal
+COW_SAHIWAL_0021,cleaned/cattle/sahiwal/sahiwal_0021.jpg,cattle,cow_sahiwal,Sahiwal
+COW_SAHIWAL_0022,cleaned/cattle/sahiwal/sahiwal_0022.jpg,cattle,cow_sahiwal,Sahiwal
+COW_SANCHORI_0002,cleaned/cattle/sanchori/sanchori_0002.jpg,cattle,cow_sanchori,Sanchori
+COW_SHWETA_KAPILA_0002,cleaned/cattle/shweta_kapila/shweta_kapila_0002.jpg,cattle,cow_shweta_kapila,Shweta Kapila
+COW_SIRI_0019,cleaned/cattle/siri/siri_0019.jpg,cattle,cow_siri,Siri
+COW_SIRI_0020,cleaned/cattle/siri/siri_0020.jpg,cattle,cow_siri,Siri
+COW_SIRI_0021,cleaned/cattle/siri/siri_0021.jpg,cattle,cow_siri,Siri
+COW_THARPARKAR_0010,cleaned/cattle/tharparkar/tharparkar_0010.jpg,cattle,cow_tharparkar,Tharparkar
+COW_THARPARKAR_0012,cleaned/cattle/tharparkar/tharparkar_0012.jpg,cattle,cow_tharparkar,Tharparkar
+COW_THUTHO_0002,cleaned/cattle/thutho/thutho_0002.jpg,cattle,cow_thutho,Thutho
+COW_UMARDA_0002,cleaned/cattle/umarda/umarda_0002.jpg,cattle,cow_umarda,Umarda
+COW_UMBLACHERY_0002,cleaned/cattle/umblachery/umblachery_0002.jpg,cattle,cow_umblachery,Umblachery
+COW_VECHUR_0017,cleaned/cattle/vechur/vechur_0017.jpg,cattle,cow_vechur,Vechur
+COW_VECHUR_0018,cleaned/cattle/vechur/vechur_0018.jpg,cattle,cow_vechur,Vechur
+COW_VECHUR_0019,cleaned/cattle/vechur/vechur_0019.jpg,cattle,cow_vechur,Vechur
