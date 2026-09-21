@@ -66,5 +66,4 @@ frontend/node_modules/
 # Dataset folders (will be staged and pushed in controlled batches)
 dataset/cleaned/
 dataset/expanded_82_breeds/
-dataset/expanded_82_breeds_v2/
 dataset/raw/
