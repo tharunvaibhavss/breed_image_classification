@@ -53,45 +53,20 @@ data/val/*
 data/test/*
 !data/test/.gitkeep
 
-# Model Weights & Artifacts
-models/*
-!models/.gitkeep
-*.pt
-*.pth
-*.onnx
-*.engine
-
-# Experiments & MLflow Tracking
-mlruns/
-.mlruns/
-experiments/*
-!experiments/.gitkeep
-
-# Pytest / Coverage
+# Local build caches (regenerated automatically)
 .pytest_cache/
 .coverage
 htmlcov/
-
-# Logs
 *.log
 logs/
-
-# Node / Next.js (for frontend)
-frontend/node_modules/
 frontend/.next/
 frontend/out/
 
-# Local DB & Scratch
-*.db
-*.sqlite3
-scratch/
-dataset/raw/
+# Node dependencies (contains next-swc.win32-x64-msvc.node > 100MB blocked by GitHub)
+frontend/node_modules/
+
+# Dataset folders (will be staged and pushed in controlled batches)
 dataset/cleaned/
-dataset/rejected/
 dataset/expanded_82_breeds/
-test_*.jpg
-test_*.png
-
-
 dataset/expanded_82_breeds_v2/
-dataset/synthetic_82_breeds_v3/
+dataset/raw/
