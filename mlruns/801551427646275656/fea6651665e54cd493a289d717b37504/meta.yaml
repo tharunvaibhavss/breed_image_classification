@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/HP/Desktop/MCA Project/MCA Project AI Breed/mlruns/801551427646275656/fea6651665e54cd493a289d717b37504/artifacts
+end_time: 1787856056018
+entry_point_name: ''
+experiment_id: '801551427646275656'
+lifecycle_stage: active
+run_id: fea6651665e54cd493a289d717b37504
+run_name: yolo-detection-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1787856055896
+status: 3
+tags: []
+user_id: HP

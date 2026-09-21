@@ -1,0 +1,9 @@
+artifact_location: file:C:/Users/HP/Desktop/MCA Project/MCA Project AI Breed/mlruns/801551427646275656
+creation_time: 1787750475015
+effective_trace_archival_retention: null
+experiment_id: '801551427646275656'
+last_update_time: 1787750475015
+lifecycle_stage: active
+name: indian-cattle-buffalo/yolo-animal-detection
+trace_location: null
+workspace: default

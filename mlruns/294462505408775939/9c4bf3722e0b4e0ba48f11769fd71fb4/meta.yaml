@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/HP/Desktop/MCA Project/MCA Project AI Breed/mlruns/294462505408775939/9c4bf3722e0b4e0ba48f11769fd71fb4/artifacts
+end_time: 1789656496546
+entry_point_name: ''
+experiment_id: '294462505408775939'
+lifecycle_stage: active
+run_id: 9c4bf3722e0b4e0ba48f11769fd71fb4
+run_name: efficientnet-b0-classification-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1789656496463
+status: 3
+tags: []
+user_id: HP

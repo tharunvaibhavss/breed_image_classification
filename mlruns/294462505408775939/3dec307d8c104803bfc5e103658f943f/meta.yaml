@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/HP/Desktop/MCA Project/MCA Project AI Breed/mlruns/294462505408775939/3dec307d8c104803bfc5e103658f943f/artifacts
+end_time: 1787856662071
+entry_point_name: ''
+experiment_id: '294462505408775939'
+lifecycle_stage: active
+run_id: 3dec307d8c104803bfc5e103658f943f
+run_name: real-data-validation-audit-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1787856661931
+status: 3
+tags: []
+user_id: HP
