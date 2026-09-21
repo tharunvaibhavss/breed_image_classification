@@ -1,0 +1,20 @@
+{
+  "model_version": "v3_real_plus_synthetic",
+  "architecture": "EfficientNet-B0",
+  "num_classes": 82,
+  "train_samples_total": 2461,
+  "real_train_samples": 382,
+  "synthetic_train_samples": 2079,
+  "val_samples_real": 84,
+  "min_train_images_per_class": 30,
+  "max_train_images_per_class": 31,
+  "stage_1_epochs": 10,
+  "stage_1_lr": 0.001,
+  "stage_2_epochs": 5,
+  "stage_2_backbone_lr": 0.0001,
+  "stage_2_head_lr": 0.0005,
+  "batch_size": 32,
+  "loss_function": "CrossEntropyLoss(label_smoothing=0.1)",
+  "best_real_val_accuracy": 0.5238095238095238,
+  "best_real_val_macro_f1": 0.3722776545947278
+}

@@ -1,0 +1,10 @@
+{
+  "model": "efficientnet_b0_v3",
+  "pytorch_latency_mean_ms": 52.97,
+  "pytorch_latency_std_ms": 10.78,
+  "onnx_latency_mean_ms": 17.67,
+  "onnx_latency_std_ms": 1.66,
+  "speedup_factor": 3.0,
+  "max_numerical_diff": 3.337860107421875e-06,
+  "parity_passed": true
+}

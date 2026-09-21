@@ -1,0 +1,20 @@
+{
+  "model_name": "EfficientNet-B0 (Expanded 82-Breeds v2)",
+  "backbone": "efficientnet_b0",
+  "weights": "DEFAULT (ImageNet-1K)",
+  "num_classes": 82,
+  "input_resolution": [
+    224,
+    224,
+    3
+  ],
+  "training_samples": 382,
+  "validation_samples": 84,
+  "batch_size": 16,
+  "stage_1_epochs": 10,
+  "stage_2_epochs": 5,
+  "loss_function": "CrossEntropyLoss(label_smoothing=0.1)",
+  "best_validation_accuracy": 0.5,
+  "best_validation_macro_f1": 0.29883529169243456,
+  "timestamp_utc": "2026-09-17T16:57:39.037545+00:00"
+}
