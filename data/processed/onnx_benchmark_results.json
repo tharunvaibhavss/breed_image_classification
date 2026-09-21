@@ -1,0 +1,17 @@
+{
+  "num_runs": 100,
+  "pytorch": {
+    "avg_latency_ms": 44.4,
+    "fps": 22.5,
+    "estimated_size_mb": 16.1
+  },
+  "onnx_runtime": {
+    "avg_latency_ms": 14.59,
+    "fps": 68.6,
+    "file_size_mb": 0.72
+  },
+  "consistency": {
+    "max_absolute_logit_diff": 1.341104507446289e-07,
+    "is_numerically_consistent": true
+  }
+}

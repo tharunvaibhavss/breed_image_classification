@@ -1,0 +1,92 @@
+{
+  "report_title": "Dataset Inspection & Analysis Report",
+  "phase": "Phase 1 - Dataset Inspection and Organization",
+  "dataset_directory": "C:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\data\\raw\\dataset",
+  "breed_registry": {
+    "total_classes": 6,
+    "breeds": [
+      {
+        "class_id": 0,
+        "breed_name": "Gir",
+        "animal_type": "cattle",
+        "display_name": "Gir Cattle",
+        "enabled": true
+      },
+      {
+        "class_id": 1,
+        "breed_name": "Ongole",
+        "animal_type": "cattle",
+        "display_name": "Ongole Cattle",
+        "enabled": true
+      },
+      {
+        "class_id": 2,
+        "breed_name": "Sahiwal",
+        "animal_type": "cattle",
+        "display_name": "Sahiwal Cattle",
+        "enabled": true
+      },
+      {
+        "class_id": 3,
+        "breed_name": "Jaffarabadi",
+        "animal_type": "buffalo",
+        "display_name": "Jaffarabadi Buffalo",
+        "enabled": true
+      },
+      {
+        "class_id": 4,
+        "breed_name": "Murrah",
+        "animal_type": "buffalo",
+        "display_name": "Murrah Buffalo",
+        "enabled": true
+      },
+      {
+        "class_id": 5,
+        "breed_name": "Surti",
+        "animal_type": "buffalo",
+        "display_name": "Surti Buffalo",
+        "enabled": true
+      }
+    ]
+  },
+  "summary_statistics": {
+    "total_images": 0,
+    "valid_images": 0,
+    "corrupted_images": 0,
+    "unreadable_images": 0,
+    "zero_byte_files": 0,
+    "missing_label_files_count": 0,
+    "missing_label_files": [],
+    "unexpected_files_count": 0,
+    "unexpected_files": [],
+    "images_per_animal_type": {},
+    "images_per_breed": {},
+    "format_counts": {},
+    "dimension_statistics": {
+      "min_width": 0,
+      "max_width": 0,
+      "mean_width": 0.0,
+      "median_width": 0,
+      "min_height": 0,
+      "max_height": 0,
+      "mean_height": 0.0,
+      "median_height": 0,
+      "min_aspect_ratio": 0.0,
+      "max_aspect_ratio": 0.0,
+      "mean_aspect_ratio": 0.0,
+      "min_file_size_bytes": 0,
+      "max_file_size_bytes": 0,
+      "mean_file_size_bytes": 0.0
+    },
+    "duplicate_analysis": {
+      "total_exact_duplicate_groups": 0,
+      "total_exact_duplicate_files": 0,
+      "exact_duplicate_groups": [],
+      "total_augmented_filename_matches": 0,
+      "augmented_filename_files": [],
+      "total_perceptual_similar_groups": 0,
+      "possible_augmented_groups": []
+    }
+  },
+  "images_metadata": []
+}

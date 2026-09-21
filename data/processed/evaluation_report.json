@@ -1,0 +1,119 @@
+{
+  "report_title": "Model Evaluation Report",
+  "phase": "Phase 7 - Model Evaluation and Error Analysis",
+  "architecture": "EfficientNet-B0",
+  "evaluation_metrics": {
+    "status": "warning",
+    "message": "Test set empty. Baseline evaluation metrics returned.",
+    "total_test_samples": 0,
+    "test_loss": 0.0,
+    "accuracy": 0.0,
+    "top_3_accuracy": 0.0,
+    "precision_macro": 0.0,
+    "recall_macro": 0.0,
+    "f1_macro": 0.0,
+    "f1_weighted": 0.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "per_class_metrics": {
+      "Gir": {
+        "class_id": 0,
+        "breed_name": "Gir",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      },
+      "Ongole": {
+        "class_id": 1,
+        "breed_name": "Ongole",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      },
+      "Sahiwal": {
+        "class_id": 2,
+        "breed_name": "Sahiwal",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      },
+      "Jaffarabadi": {
+        "class_id": 3,
+        "breed_name": "Jaffarabadi",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      },
+      "Murrah": {
+        "class_id": 4,
+        "breed_name": "Murrah",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      },
+      "Surti": {
+        "class_id": 5,
+        "breed_name": "Surti",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      }
+    },
+    "y_true": [],
+    "y_pred_probs": []
+  }
+}
