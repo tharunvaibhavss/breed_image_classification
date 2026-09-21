@@ -1,0 +1,83 @@
+breed_id,breed_name,species,total_real,train_real,val_real,test_real,priority,synthetic_images_required,target_training_count,combined_total
+cow_ghumusari,Ghumusari,cattle,1,1,0,0,HIGH (1-14 REAL),29,30,30
+cow_khariar,Khariar,cattle,1,1,0,0,HIGH (1-14 REAL),29,30,30
+cow_kosali,Kosali,cattle,1,1,0,0,HIGH (1-14 REAL),29,30,30
+cow_belahi,Belahi,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_bhadawari,Bhadawari,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_binjharpuri,Binjharpuri,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_chhattisgarhi,Chhattisgarhi,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_chilika,Chilika,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_dagri,Dagri,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_dharwadi,Dharwadi,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_gojri,Gojri,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_himachali_pahari,Himachali Pahari,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_jaffarabadi,Jaffarabadi,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_kalahandi,Kalahandi,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_kathani,Kathani,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_kenkatha,Kenkatha,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_kherigarh,Kherigarh,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_khillar,Khillar,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_konkan_kapila,Konkan Kapila,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_krishna_valley,Krishna Valley,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_lakhimi,Lakhimi,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_luit_swamp,Luit (Swamp),buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_mahakaushali,Mahakaushali,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_malnad_gidda,Malnad Gidda,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_manah,Manah,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_marathwadi,Marathwadi,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_masilum,Masilum,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_melghati,Melghati,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_mewati,Mewati,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_motu,Motu,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_pandharpuri,Pandharpuri,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_poda_thurpu,Poda Thurpu,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_pulikulam,Pulikulam,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_purnathadi,Purnathadi,buffalo,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_purnea,Purnea,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_rathi,Rathi,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_rohilkhandi,Rohilkhandi,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_sanchori,Sanchori,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_shweta_kapila,Shweta Kapila,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_thutho,Thutho,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_umarda,Umarda,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+cow_umblachery,Umblachery,cattle,2,1,0,1,HIGH (1-14 REAL),29,30,31
+buffalo_banni,Banni,buffalo,3,1,1,1,HIGH (1-14 REAL),29,30,32
+buffalo_gomanchali,Gomanchali,buffalo,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_hariana,Hariana,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_koppal,Koppal,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_malvi,Malvi,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_medini,Medini,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_nari,Nari,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+buffalo_nili_ravi,Nili Ravi,buffalo,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_ponwar,Ponwar,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_red_kandhari,Red Kandhari,cattle,3,1,1,1,HIGH (1-14 REAL),29,30,32
+cow_deoni,Deoni,cattle,4,2,1,1,HIGH (1-14 REAL),28,30,32
+cow_ladakhi,Ladakhi,cattle,5,3,1,1,HIGH (1-14 REAL),27,30,32
+cow_red_sindhi,Red Sindhi,cattle,5,3,1,1,HIGH (1-14 REAL),27,30,32
+cow_amritmahal,Amritmahal,cattle,6,4,1,1,HIGH (1-14 REAL),26,30,32
+buffalo_bargur,Bargur,buffalo,6,4,1,1,HIGH (1-14 REAL),26,30,32
+cow_hallikar,Hallikar,cattle,6,4,1,1,HIGH (1-14 REAL),26,30,32
+cow_periyar,Periyar,cattle,6,4,1,1,HIGH (1-14 REAL),26,30,32
+cow_bargur,Bargur,cattle,7,5,1,1,HIGH (1-14 REAL),25,30,32
+cow_gangatiri,Gangatiri,cattle,8,6,1,1,HIGH (1-14 REAL),24,30,32
+buffalo_mehsana,Mehsana,buffalo,9,7,1,1,HIGH (1-14 REAL),23,30,32
+buffalo_murrah,Murrah,buffalo,10,6,2,2,HIGH (1-14 REAL),24,30,34
+buffalo_nagpuri,Nagpuri,buffalo,11,7,2,2,HIGH (1-14 REAL),23,30,34
+cow_tharparkar,Tharparkar,cattle,11,7,2,2,HIGH (1-14 REAL),23,30,34
+cow_nimari,Nimari,cattle,12,8,2,2,HIGH (1-14 REAL),22,30,34
+cow_kankrej,Kankrej,cattle,15,11,2,2,MEDIUM (15-29 REAL),19,30,34
+cow_punganur,Punganur,cattle,16,12,2,2,MEDIUM (15-29 REAL),18,30,34
+cow_badri,Badri,cattle,17,11,3,3,MEDIUM (15-29 REAL),19,30,36
+cow_kangayam,Kangayam,cattle,17,11,3,3,MEDIUM (15-29 REAL),19,30,36
+cow_nagori,Nagori,cattle,17,11,3,3,MEDIUM (15-29 REAL),19,30,36
+buffalo_toda,Toda,buffalo,17,11,3,3,MEDIUM (15-29 REAL),19,30,36
+cow_vechur,Vechur,cattle,19,13,3,3,MEDIUM (15-29 REAL),17,30,36
+cow_siri,Siri,cattle,21,15,3,3,MEDIUM (15-29 REAL),15,30,36
+buffalo_surti,Surti,buffalo,21,15,3,3,MEDIUM (15-29 REAL),15,30,36
+cow_sahiwal,Sahiwal,cattle,22,16,3,3,MEDIUM (15-29 REAL),14,30,36
+cow_bachaur,Bachaur,cattle,23,17,3,3,MEDIUM (15-29 REAL),13,30,36
+cow_ongole,Ongole,cattle,29,21,4,4,MEDIUM (15-29 REAL),9,30,38
+cow_gir,Gir,cattle,31,21,5,5,SUFFICIENT (>=30 REAL),9,30,40
+buffalo_manda,Manda,buffalo,31,21,5,5,SUFFICIENT (>=30 REAL),9,30,40
+cow_gaolao,Gaolao,cattle,33,23,5,5,SUFFICIENT (>=30 REAL),7,30,40
+cow_dangi,Dangi,cattle,43,31,6,6,SUFFICIENT (>=30 REAL),0,31,43

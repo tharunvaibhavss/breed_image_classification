@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "Gir",
+    "Ongole",
+    "Sahiwal",
+    "Jaffarabadi",
+    "Murrah",
+    "Surti"
+  ],
+  "train_images": 80,
+  "val_images": 17,
+  "test_images": 18,
+  "accuracy": 0.7222222222222222,
+  "macro_precision": 0.6329365079365079,
+  "macro_recall": 0.638888888888889,
+  "macro_f1": 0.5936507936507937,
+  "top3_accuracy": 0.8888888888888888
+}

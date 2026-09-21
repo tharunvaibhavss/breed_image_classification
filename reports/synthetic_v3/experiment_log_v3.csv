@@ -1,0 +1,4 @@
+experiment_id,dataset_version,model,train_samples,val_samples,test_samples,test_accuracy,test_macro_f1,test_top3,unique_predicted,notes
+EXP_BASELINE_82,v1_real (486 images),EfficientNet-B0,302,69,115,13.04%,4.43%,32.17%,17,Severe class imbalance and sample scarcity
+EXP_EXPANDED_V2,v2_real (589 images),EfficientNet-B0,382,84,123,33.33%,16.94%,50.41%,33,"Deduplicated real expanded dataset, label smoothing"
+EXP_SYNTHETIC_AUG_V3,v3_augmented (382 Real + 2079 Synthetic),EfficientNet-B0,2461,84,123,36.59%,21.41%,50.41%,40,"Minimum 30 images/class target, zero test leakage"

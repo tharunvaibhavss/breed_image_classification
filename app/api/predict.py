@@ -21,12 +21,27 @@ router = APIRouter(tags=["Breed Prediction"])
 _pipelines: Dict[str, BreedRecognitionPipeline] = {}
 
 
-def get_pipeline(model_version: str = "efficientnet_b0_82_breeds_v1") -> BreedRecognitionPipeline:
+def get_pipeline(model_version: str = "high_accuracy_v2") -> BreedRecognitionPipeline:
     """Retrieve or lazily initialize pipeline for specified model version."""
     global _pipelines
     v_key = model_version.lower()
     if v_key not in _pipelines:
-        if "82" in v_key:
+        if "high_accuracy" in v_key or "opt" in v_key:
+            _pipelines[v_key] = BreedRecognitionPipeline(
+                efficientnet_model_path="experiments/high_accuracy_v2/models/best_high_accuracy_model.pth",
+                class_mapping_path="models/synthetic_82_breeds_v3/class_mapping_v3.json",
+            )
+        elif "v3" in v_key or "synth" in v_key:
+            _pipelines[v_key] = BreedRecognitionPipeline(
+                efficientnet_model_path="models/synthetic_82_breeds_v3/best_model_v3.pth",
+                class_mapping_path="models/synthetic_82_breeds_v3/class_mapping_v3.json",
+            )
+        elif "v2" in v_key:
+            _pipelines[v_key] = BreedRecognitionPipeline(
+                efficientnet_model_path="models/expanded_82_breeds_v2/best_model_v2.pth",
+                class_mapping_path="models/expanded_82_breeds_v2/class_mapping_v2.json",
+            )
+        elif "82" in v_key:
             _pipelines[v_key] = BreedRecognitionPipeline(
                 efficientnet_model_path="models/efficientnet_b0_82_breeds_best.pth",
                 class_mapping_path="models/class_names.json",
@@ -41,7 +56,7 @@ def get_pipeline(model_version: str = "efficientnet_b0_82_breeds_v1") -> BreedRe
 
 def get_inference_pipeline() -> BreedRecognitionPipeline:
     """Default dependency provider for backwards compatibility."""
-    return get_pipeline("efficientnet_b0_82_breeds_v1")
+    return get_pipeline("high_accuracy_v2")
 
 
 
@@ -80,8 +95,8 @@ async def predict_breed(
         True, description="Whether to compute Grad-CAM explainability heatmap overlay"
     ),
     model_version: str = Query(
-        "efficientnet_b0_82_breeds_v1",
-        description="Model version to use: 'efficientnet_b0_82_breeds_v1' or 'efficientnet_b0_6_breeds_v1'",
+        "high_accuracy_v2",
+        description="Model version to use: 'high_accuracy_v2', 'efficientnet_b0_82_breeds_v3', 'efficientnet_b0_82_breeds_v2', 'efficientnet_b0_82_breeds_v1', or 'efficientnet_b0_6_breeds_v1'",
     ),
 ) -> PredictResponseSchema:
     """Predict Indian Cattle and Buffalo breed from uploaded image file."""

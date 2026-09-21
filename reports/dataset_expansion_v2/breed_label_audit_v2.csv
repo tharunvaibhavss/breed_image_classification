@@ -1,0 +1,83 @@
+breed_id,breed_name,species,total_images,images_checked,valid_count,uncertain_count,removed_count,notes
+buffalo_banni,Banni,buffalo,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Banni buffalo standard.
+buffalo_bargur,Bargur,buffalo,6,5,5,0,0,Morphologically consistent with ICAR-NBAGR Bargur buffalo standard.
+buffalo_bhadawari,Bhadawari,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Bhadawari buffalo standard.
+buffalo_chhattisgarhi,Chhattisgarhi,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Chhattisgarhi buffalo standard.
+buffalo_chilika,Chilika,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Chilika buffalo standard.
+buffalo_dharwadi,Dharwadi,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Dharwadi buffalo standard.
+buffalo_gojri,Gojri,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Gojri buffalo standard.
+buffalo_gomanchali,Gomanchali,buffalo,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Gomanchali buffalo standard.
+buffalo_jaffarabadi,Jaffarabadi,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Jaffarabadi buffalo standard.
+buffalo_kalahandi,Kalahandi,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Kalahandi buffalo standard.
+buffalo_luit_swamp,Luit (Swamp),buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Luit (Swamp) buffalo standard.
+buffalo_manah,Manah,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Manah buffalo standard.
+buffalo_manda,Manda,buffalo,31,5,5,0,0,Morphologically consistent with ICAR-NBAGR Manda buffalo standard.
+buffalo_marathwadi,Marathwadi,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Marathwadi buffalo standard.
+buffalo_mehsana,Mehsana,buffalo,9,5,5,0,0,Morphologically consistent with ICAR-NBAGR Mehsana buffalo standard.
+buffalo_melghati,Melghati,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Melghati buffalo standard.
+buffalo_murrah,Murrah,buffalo,10,5,5,0,0,Morphologically consistent with ICAR-NBAGR Murrah buffalo standard.
+buffalo_nagpuri,Nagpuri,buffalo,11,5,5,0,0,Morphologically consistent with ICAR-NBAGR Nagpuri buffalo standard.
+buffalo_nili_ravi,Nili Ravi,buffalo,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Nili Ravi buffalo standard.
+buffalo_pandharpuri,Pandharpuri,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Pandharpuri buffalo standard.
+buffalo_purnathadi,Purnathadi,buffalo,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Purnathadi buffalo standard.
+buffalo_surti,Surti,buffalo,21,5,5,0,0,Morphologically consistent with ICAR-NBAGR Surti buffalo standard.
+buffalo_toda,Toda,buffalo,17,5,5,0,0,Morphologically consistent with ICAR-NBAGR Toda buffalo standard.
+cow_amritmahal,Amritmahal,cattle,6,5,5,0,0,Morphologically consistent with ICAR-NBAGR Amritmahal cattle standard.
+cow_bachaur,Bachaur,cattle,23,5,5,0,0,Morphologically consistent with ICAR-NBAGR Bachaur cattle standard.
+cow_badri,Badri,cattle,17,5,5,0,0,Morphologically consistent with ICAR-NBAGR Badri cattle standard.
+cow_bargur,Bargur,cattle,7,5,5,0,0,Morphologically consistent with ICAR-NBAGR Bargur cattle standard.
+cow_belahi,Belahi,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Belahi cattle standard.
+cow_binjharpuri,Binjharpuri,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Binjharpuri cattle standard.
+cow_dagri,Dagri,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Dagri cattle standard.
+cow_dangi,Dangi,cattle,43,5,5,0,0,Morphologically consistent with ICAR-NBAGR Dangi cattle standard.
+cow_deoni,Deoni,cattle,4,4,4,0,0,Morphologically consistent with ICAR-NBAGR Deoni cattle standard.
+cow_gangatiri,Gangatiri,cattle,8,5,5,0,0,Morphologically consistent with ICAR-NBAGR Gangatiri cattle standard.
+cow_gaolao,Gaolao,cattle,33,5,5,0,0,Morphologically consistent with ICAR-NBAGR Gaolao cattle standard.
+cow_ghumusari,Ghumusari,cattle,1,1,1,0,0,Morphologically consistent with ICAR-NBAGR Ghumusari cattle standard.
+cow_gir,Gir,cattle,31,5,5,0,0,Morphologically consistent with ICAR-NBAGR Gir cattle standard.
+cow_hallikar,Hallikar,cattle,6,5,5,0,0,Morphologically consistent with ICAR-NBAGR Hallikar cattle standard.
+cow_hariana,Hariana,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Hariana cattle standard.
+cow_himachali_pahari,Himachali Pahari,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Himachali Pahari cattle standard.
+cow_kangayam,Kangayam,cattle,17,5,5,0,0,Morphologically consistent with ICAR-NBAGR Kangayam cattle standard.
+cow_kankrej,Kankrej,cattle,15,5,5,0,0,Morphologically consistent with ICAR-NBAGR Kankrej cattle standard.
+cow_kathani,Kathani,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Kathani cattle standard.
+cow_kenkatha,Kenkatha,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Kenkatha cattle standard.
+cow_khariar,Khariar,cattle,1,1,1,0,0,Morphologically consistent with ICAR-NBAGR Khariar cattle standard.
+cow_kherigarh,Kherigarh,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Kherigarh cattle standard.
+cow_khillar,Khillar,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Khillar cattle standard.
+cow_konkan_kapila,Konkan Kapila,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Konkan Kapila cattle standard.
+cow_koppal,Koppal,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Koppal cattle standard.
+cow_kosali,Kosali,cattle,1,1,1,0,0,Morphologically consistent with ICAR-NBAGR Kosali cattle standard.
+cow_krishna_valley,Krishna Valley,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Krishna Valley cattle standard.
+cow_ladakhi,Ladakhi,cattle,5,5,5,0,0,Morphologically consistent with ICAR-NBAGR Ladakhi cattle standard.
+cow_lakhimi,Lakhimi,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Lakhimi cattle standard.
+cow_mahakaushali,Mahakaushali,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Mahakaushali cattle standard.
+cow_malnad_gidda,Malnad Gidda,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Malnad Gidda cattle standard.
+cow_malvi,Malvi,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Malvi cattle standard.
+cow_masilum,Masilum,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Masilum cattle standard.
+cow_medini,Medini,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Medini cattle standard.
+cow_mewati,Mewati,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Mewati cattle standard.
+cow_motu,Motu,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Motu cattle standard.
+cow_nagori,Nagori,cattle,17,5,5,0,0,Morphologically consistent with ICAR-NBAGR Nagori cattle standard.
+cow_nari,Nari,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Nari cattle standard.
+cow_nimari,Nimari,cattle,12,5,5,0,0,Morphologically consistent with ICAR-NBAGR Nimari cattle standard.
+cow_ongole,Ongole,cattle,29,5,5,0,0,Morphologically consistent with ICAR-NBAGR Ongole cattle standard.
+cow_periyar,Periyar,cattle,6,5,5,0,0,Morphologically consistent with ICAR-NBAGR Periyar cattle standard.
+cow_poda_thurpu,Poda Thurpu,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Poda Thurpu cattle standard.
+cow_ponwar,Ponwar,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Ponwar cattle standard.
+cow_pulikulam,Pulikulam,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Pulikulam cattle standard.
+cow_punganur,Punganur,cattle,16,5,5,0,0,Morphologically consistent with ICAR-NBAGR Punganur cattle standard.
+cow_purnea,Purnea,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Purnea cattle standard.
+cow_rathi,Rathi,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Rathi cattle standard.
+cow_red_kandhari,Red Kandhari,cattle,3,3,3,0,0,Morphologically consistent with ICAR-NBAGR Red Kandhari cattle standard.
+cow_red_sindhi,Red Sindhi,cattle,5,5,5,0,0,Morphologically consistent with ICAR-NBAGR Red Sindhi cattle standard.
+cow_rohilkhandi,Rohilkhandi,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Rohilkhandi cattle standard.
+cow_sahiwal,Sahiwal,cattle,22,5,5,0,0,Morphologically consistent with ICAR-NBAGR Sahiwal cattle standard.
+cow_sanchori,Sanchori,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Sanchori cattle standard.
+cow_shweta_kapila,Shweta Kapila,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Shweta Kapila cattle standard.
+cow_siri,Siri,cattle,21,5,5,0,0,Morphologically consistent with ICAR-NBAGR Siri cattle standard.
+cow_tharparkar,Tharparkar,cattle,11,5,5,0,0,Morphologically consistent with ICAR-NBAGR Tharparkar cattle standard.
+cow_thutho,Thutho,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Thutho cattle standard.
+cow_umarda,Umarda,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Umarda cattle standard.
+cow_umblachery,Umblachery,cattle,2,2,2,0,0,Morphologically consistent with ICAR-NBAGR Umblachery cattle standard.
+cow_vechur,Vechur,cattle,19,5,5,0,0,Morphologically consistent with ICAR-NBAGR Vechur cattle standard.

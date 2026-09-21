@@ -1,0 +1,4 @@
+experiment_id,dataset_version,model,augmentation,loss,learning_rate,batch_size,epochs,validation_accuracy,validation_macro_f1,test_accuracy,test_macro_f1,test_top3,notes
+EXP_BASELINE_82,v1 (486 images),EfficientNet-B0,"Flip, Crop, Rotation, Jitter",CrossEntropyLoss,1e-3 -> 1e-4,16,15,33.33%,18.25%,13.04%,4.43%,32.17%,Baseline 82-breed run with sample scarcity (3.68 train img/class)
+EXP_EXPANDED_82_V2,v2 (589 images),EfficientNet-B0,"Flip, RandomResizedCrop, Rotation, ColorJitter",CrossEntropyLoss(label_smoothing=0.1),1e-3 -> 5e-4 (Cosine),16,15,50.00%,30.81%,33.33%,16.94%,50.41%,Expanded v2 dataset with quality filtering and label smoothing
+EXP_CONTROLLED_GE20,v2 (Classes >= 20 images),EfficientNet-B0,"Flip, RandomResizedCrop, Rotation, ColorJitter",CrossEntropyLoss(label_smoothing=0.1),1e-3 -> 5e-4 (Cosine),16,15,65.22%,60.16%,59.46%,42.26%,75.68%,Controlled experiment on classes with >= 20 images

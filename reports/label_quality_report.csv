@@ -1,0 +1,83 @@
+breed,species,images_checked,correct,incorrect,uncertain,notes
+Banni,buffalo,3,3,0,0,Only 3 authentic images available in public domain
+Bargur,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Bhadawari,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Chhattisgarhi,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Chilika,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Dharwadi,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Gojri,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Gomanchali,buffalo,3,3,0,0,Only 3 authentic images available in public domain
+Jaffarabadi,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Kalahandi,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Luit (Swamp),buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Manah,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Manda,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Marathwadi,buffalo,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (462x175) or mode (RGB)
+Mehsana,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Melghati,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Murrah,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Nagpuri,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Nili Ravi,buffalo,3,3,0,0,Only 3 authentic images available in public domain
+Pandharpuri,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Purnathadi,buffalo,2,2,0,0,Only 2 authentic images available in public domain
+Surti,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Toda,buffalo,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Amritmahal,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Bachaur,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Badri,cattle,5,3,0,2,Substandard dimensions (142x285) or mode (RGB); Substandard dimensions (195x263) or mode (RGB)
+Bargur,cattle,1,1,0,0,Only 1 authentic images available in public domain
+Belahi,cattle,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (274x184) or mode (RGB)
+Binjharpuri,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Dagri,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Dangi,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Deoni,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Gangatiri,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Gaolao,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Ghumusari,cattle,1,0,0,1,Only 1 authentic images available in public domain; Substandard dimensions (232x149) or mode (RGB)
+Gir,cattle,5,4,0,1,Substandard dimensions (236x157) or mode (RGB)
+Hallikar,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Hariana,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Himachali Pahari,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Kangayam,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Kankrej,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Kathani,cattle,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (253x190) or mode (RGB)
+Kenkatha,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Khariar,cattle,1,1,0,0,Only 1 authentic images available in public domain
+Kherigarh,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Khillar,cattle,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (277x182) or mode (RGB)
+Konkan Kapila,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Koppal,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Kosali,cattle,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (360x185) or mode (RGB)
+Krishna Valley,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Ladakhi,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Lakhimi,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Mahakaushali,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Malnad Gidda,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Malvi,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Masilum,cattle,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (268x190) or mode (RGB)
+Medini,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Mewati,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Motu,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Nagori,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Nari,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Nimari,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Ongole,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Periyar,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Poda Thurpu,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Ponwar,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Pulikulam,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Punganur,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Purnea,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Rathi,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Red Kandhari,cattle,3,3,0,0,Only 3 authentic images available in public domain
+Red Sindhi,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Rohilkhandi,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Sahiwal,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Sanchori,cattle,2,1,0,1,Only 2 authentic images available in public domain; Substandard dimensions (193x190) or mode (RGB)
+Shweta Kapila,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Siri,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Tharparkar,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology
+Thutho,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Umarda,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Umblachery,cattle,2,2,0,0,Only 2 authentic images available in public domain
+Vechur,cattle,5,5,0,0,Verified authentic ICAR-NBAGR phenotypic morphology

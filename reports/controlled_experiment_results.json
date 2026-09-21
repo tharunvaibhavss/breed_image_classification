@@ -1,0 +1,21 @@
+{
+  "num_classes": 6,
+  "classes": [
+    "buffalo_manda",
+    "cow_gir",
+    "cow_ongole",
+    "cow_sahiwal",
+    "buffalo_surti",
+    "cow_siri"
+  ],
+  "train_images": 109,
+  "val_images": 23,
+  "test_images": 23,
+  "accuracy": 0.6521739130434783,
+  "macro_precision": 0.669047619047619,
+  "macro_recall": 0.6055555555555555,
+  "macro_f1": 0.6015873015873016,
+  "weighted_precision": 0.6842650103519669,
+  "weighted_f1": 0.6376811594202898,
+  "top3_accuracy": 0.9130434782608695
+}

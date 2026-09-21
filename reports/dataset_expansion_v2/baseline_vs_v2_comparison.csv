@@ -1,0 +1,13 @@
+Metric,Baseline 82-Class,Expanded 82-Class (v2),Change (pp)
+Overall Accuracy (Top-1),13.04%,33.33%,+20.29%
+Top-3 Accuracy,32.17%,50.41%,+18.24%
+Macro Precision,3.63%,17.71%,+14.08%
+Macro Recall,6.61%,19.30%,+12.69%
+Macro F1-Score,4.43%,16.94%,+12.51%
+Weighted Precision,5.89%,28.22%,+22.33%
+Weighted F1-Score,7.68%,27.59%,+19.91%
+Unique Predicted Classes,17 / 82,33 / 82,+16
+Cattle Top-1 Accuracy,10.98%,34.44%,+23.46%
+Cattle Top-3 Accuracy,30.49%,50.00%,+19.51%
+Buffalo Top-1 Accuracy,18.18%,30.30%,+12.12%
+Buffalo Top-3 Accuracy,36.36%,51.52%,+15.16%

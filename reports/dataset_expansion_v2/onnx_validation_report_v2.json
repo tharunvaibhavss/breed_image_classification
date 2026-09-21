@@ -1,0 +1,19 @@
+{
+  "num_test_samples": 123,
+  "agreement_count": 123,
+  "agreement_percentage": 100.0,
+  "max_prob_diff": 7.092952728271484e-06,
+  "mean_prob_diff": 5.386527277551068e-07,
+  "pytorch_latency_ms": {
+    "mean": 81.8686479838883,
+    "median": 82.13180000893772,
+    "p95": 115.4377199709415
+  },
+  "onnx_latency_ms": {
+    "mean": 22.862233350250296,
+    "median": 22.335699992254376,
+    "p95": 27.633980032987893
+  },
+  "speedup_factor": 3.5809558379383786,
+  "onnx_model_path": "models\\expanded_82_breeds_v2\\efficientnet_b0_v2.onnx"
+}

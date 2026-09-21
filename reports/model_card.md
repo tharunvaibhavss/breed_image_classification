@@ -27,17 +27,33 @@
 
 ---
 
-## 3. Performance Metrics on Unseen Test Dataset (N = 115)
+## 3. Performance Metrics on Unseen Test Dataset
+
+### 3.1 82-Breed Baseline Evaluation (N = 115)
 - **Top-1 Accuracy**: **13.04%** (Random baseline: 1.22%)
 - **Top-3 Accuracy**: **32.17%**
 - **Macro Precision**: **3.63%**
 - **Weighted Precision**: **5.89%**
 - **Macro Recall**: **6.61%**
 - **Macro F1-Score**: **4.43%**
+- **Cattle Partition (59 classes)**: Top-1 Acc 10.98%, Top-3 Acc 30.49%, Macro Prec 3.51%
+- **Buffalo Partition (23 classes)**: Top-1 Acc 18.18%, Top-3 Acc 36.36%, Macro Prec 7.84%
 
-### Species-Level Separation
-- **Cattle (59 classes)**: Top-1 Acc 10.98%, Top-3 Acc 30.49%, Macro Prec 3.51%
-- **Buffalo (23 classes)**: Top-1 Acc 18.18%, Top-3 Acc 36.36%, Macro Prec 7.84%
+### 3.2 Controlled Experiments & Architectural Validation
+- **Controlled Experiment ($\ge 20$ images / class, N = 23)**:
+  - Classes: 6 (Manda, Gir, Ongole, Sahiwal, Surti, Siri)
+  - **Top-1 Accuracy**: **65.22%**
+  - **Top-3 Accuracy**: **91.30%**
+  - **Macro Precision**: **66.90%** | **Macro F1**: **60.16%**
+- **6-Class Prototype Control (N = 18)**:
+  - Classes: 6 (Gir, Ongole, Sahiwal, Jaffarabadi, Murrah, Surti)
+  - **Top-1 Accuracy**: **72.22%**
+  - **Top-3 Accuracy**: **88.89%**
+  - **Macro Precision**: **63.29%** | **Macro F1**: **59.37%**
+
+### 3.3 Diagnostic Context
+The 82-breed model operates in an extreme few-shot regime (averaging 3.68 training images/breed; 79.3% of breeds have $<10$ images). Controlled experiments confirm that the EfficientNet-B0 architecture and OpenCV preprocessing pipeline achieve high accuracy (65.22% - 72.22% Top-1, ~90% Top-3) when classes have adequate sample depth. Full diagnostic report: `reports/82_breed_diagnostic_report.md`.
+
 
 ---
 

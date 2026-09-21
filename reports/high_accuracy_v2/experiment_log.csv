@@ -1,0 +1,12 @@
+experiment_id,phase,real_images,synthetic_images,architecture,resolution,loss,validation_accuracy,validation_macro_f1,validation_top3,notes
+EXP_S0_REAL_ONLY,Phase 6: Synthetic Ratio,382,0,EfficientNet-B0,224x224,CrossEntropy (Smoothing 0.1),45.24%,29.13%,66.67%,Synthetic ratio 0.0x real
+EXP_S1_SYNTH_0_5X,Phase 6: Synthetic Ratio,382,191,EfficientNet-B0,224x224,CrossEntropy (Smoothing 0.1),48.81%,33.08%,63.10%,Synthetic ratio 0.5x real
+EXP_S2_SYNTH_1_0X,Phase 6: Synthetic Ratio,382,382,EfficientNet-B0,224x224,CrossEntropy (Smoothing 0.1),51.19%,33.75%,65.48%,Synthetic ratio 1.0x real
+EXP_S3_SYNTH_2_0X,Phase 6: Synthetic Ratio,382,764,EfficientNet-B0,224x224,CrossEntropy (Smoothing 0.1),48.81%,32.78%,65.48%,Synthetic ratio 2.0x real
+EXP_L1_FOCAL_LOSS,Phase 7: Loss Function,382,382,EfficientNet-B0,224x224,Focal Loss (gamma=2.0),51.19%,31.50%,63.10%,Focal loss dynamically scales rare class gradients
+EXP_H1_HIERARCHICAL_PIPELINE,Phase 8 & 15: Hierarchical,382,382,Hierarchical (EfficientNet-B0 Species + Cattle + Buffalo),224x224,CrossEntropy (Dedicated Species Branches),44.05%,26.24%,57.14%,Completely prevents cross-species misclassifications
+EXP_A_RESNET50,Phase 10: Architecture Search,382,382,resnet50,224x224,CrossEntropy (Smoothing 0.1),52.38%,31.86%,60.71%,Pretrained backbone resnet50 evaluated under identical validation
+EXP_A_DENSENET121,Phase 10: Architecture Search,382,382,densenet121,224x224,CrossEntropy (Smoothing 0.1),44.05%,24.12%,63.10%,Pretrained backbone densenet121 evaluated under identical validation
+EXP_A_CONVNEXT_TINY,Phase 10: Architecture Search,382,382,convnext_tiny,224x224,CrossEntropy (Smoothing 0.1),52.38%,32.26%,59.52%,Pretrained backbone convnext_tiny evaluated under identical validation
+EXP_AUG_MORPHOLOGY,Phase 13: Augmentation,382,382,EfficientNet-B0,224x224,CrossEntropy (Smoothing 0.1),50.00%,31.80%,64.29%,RandomAffine (5 deg) + subtle ColorJitter
+EXP_E1_WEIGHTED_ENSEMBLE,Phase 16: Ensemble,382,382,Ensemble (EfficientNet-B0 + DenseNet121 + ResNet50),224x224,Weighted Probability Blending,50.00%,30.49%,61.90%,Probability ensemble of 3 distinct inductive bias backbones
