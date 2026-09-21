@@ -7,8 +7,19 @@
 [![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-1.15+-blue.svg)](https://onnxruntime.ai/)
 [![Tests](https://img.shields.io/badge/Tests-84%2F84%20Passed-emerald.svg)]()
 [![Data Leakage](https://img.shields.io/badge/Data_Leakage-0%25%20PASSED-brightgreen.svg)]()
+[![MCA Project Documentation](https://img.shields.io/badge/Documentation-65%20Pages%20PDF%20%7C%20DOCX-blue.svg)](./MCA_Project_Documentation.pdf)
+[![IEEE Research Paper](https://img.shields.io/badge/IEEE%20Paper-9%20Pages%20PDF%20%7C%20DOCX-darkred.svg)](./IEEE_Project_Paper.pdf)
 
 A research application project submitted for the Master of Computer Applications (MCA) Degree. This system provides an end-to-end, deep learning-powered pipeline for automated localization, indigenous breed recognition, and visual explainability of Indian Cattle (*Bos indicus*) and Buffaloes (*Bubalus bubalis*) officially recognized by the **Indian Council of Agricultural Research – National Bureau of Animal Genetic Resources (ICAR-NBAGR)** and **ICAR-CIRB**.
+
+---
+
+## 📑 Official Project Deliverables & Research Publications
+
+| Document | Format | Description | Audit Report |
+| :--- | :--- | :--- | :--- |
+| **MCA Major Project Documentation** | [📄 PDF (65 Pages)](./MCA_Project_Documentation.pdf) \| [📝 DOCX](./MCA_Project_Documentation.docx) | Complete institutional MCA project documentation adhering to standard university guidelines (Chapters 1–7, Certificate, Declaration, Acknowledgement, System Requirements, Architecture, Detailed Results). | [Validation Report](./MCA_Documentation_Validation_Report.md) |
+| **IEEE Conference Research Paper** | [📄 PDF (9 Pages)](./IEEE_Project_Paper.pdf) \| [📝 DOCX](./IEEE_Project_Paper.docx) | Full-length research paper prepared according to official IEEE 2-column A4 conference specifications, complete with mathematical formulations, 7 comparative tables, Grad-CAM visualizations, and 26 scholarly citations. | [Validation Report](./IEEE_Paper_Validation_Report.md) |
 
 ---
 
