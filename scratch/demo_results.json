@@ -1,0 +1,166 @@
+{
+  "test_1_cattle": {
+    "status": "PASSED",
+    "animal_type": "cattle",
+    "animal_confidence": 0.899,
+    "bbox": [
+      346,
+      121,
+      1012,
+      868
+    ],
+    "predicted_breed": "Ongole",
+    "breed_confidence": 0.1854,
+    "top_3": [
+      {
+        "class_id": 1,
+        "breed_name": "Ongole",
+        "display_name": "Ongole Cattle",
+        "animal_type": "cattle",
+        "confidence": 0.1854287087917328
+      },
+      {
+        "class_id": 3,
+        "breed_name": "Jaffarabadi",
+        "display_name": "Jaffarabadi Buffalo",
+        "animal_type": "buffalo",
+        "confidence": 0.17712867259979248
+      },
+      {
+        "class_id": 2,
+        "breed_name": "Sahiwal",
+        "display_name": "Sahiwal Cattle",
+        "animal_type": "cattle",
+        "confidence": 0.1718991994857788
+      }
+    ],
+    "has_gradcam": true,
+    "inference_timings": {
+      "detection_ms": 495.2,
+      "classification_ms": 158.72,
+      "gradcam_ms": 516.1,
+      "total_ms": 1216.91
+    },
+    "api_latency_ms": 1876.08,
+    "database_stored": true
+  },
+  "test_2_buffalo": {
+    "status": "PASSED",
+    "animal_type": "cattle",
+    "animal_confidence": 0.9073,
+    "bbox": [
+      271,
+      217,
+      936,
+      838
+    ],
+    "predicted_breed": "Sahiwal",
+    "breed_confidence": 0.1869,
+    "top_3": [
+      {
+        "class_id": 2,
+        "breed_name": "Sahiwal",
+        "display_name": "Sahiwal Cattle",
+        "animal_type": "cattle",
+        "confidence": 0.18688808381557465
+      },
+      {
+        "class_id": 3,
+        "breed_name": "Jaffarabadi",
+        "display_name": "Jaffarabadi Buffalo",
+        "animal_type": "buffalo",
+        "confidence": 0.17203150689601898
+      },
+      {
+        "class_id": 1,
+        "breed_name": "Ongole",
+        "display_name": "Ongole Cattle",
+        "animal_type": "cattle",
+        "confidence": 0.16685347259044647
+      }
+    ],
+    "has_gradcam": true,
+    "inference_timings": {
+      "detection_ms": 139.05,
+      "classification_ms": 74.08,
+      "gradcam_ms": 342.67,
+      "total_ms": 587.72
+    },
+    "api_latency_ms": 708.58,
+    "database_stored": true
+  },
+  "test_3_invalid_image": {
+    "status": "PASSED",
+    "corrupted_status_code": 400,
+    "error_message": "Uploaded file could not be decoded as a valid image.",
+    "server_crashed": false
+  },
+  "test_4_no_animal": {
+    "status": "PASSED",
+    "prediction_status": "no_animal_detected",
+    "animal_type": "cattle",
+    "animal_confidence": 0.0,
+    "graceful_handling": true
+  },
+  "test_5_multiple_animals": {
+    "status": "PASSED",
+    "prediction_status": "multiple_animals_detected",
+    "animal_type": "cattle",
+    "animal_confidence": 0.9123,
+    "communicated_to_user": true
+  },
+  "test_6_low_confidence": {
+    "status": "PASSED",
+    "prediction_status": "no_animal_detected",
+    "breed_confidence": 0.2263,
+    "communicates_uncertainty": true
+  },
+  "test_7_authentication": {
+    "status": "PASSED",
+    "registration_status": 201,
+    "login_status": 200,
+    "protected_route_status": 200,
+    "unauthorized_status": 401,
+    "logout_status": 200
+  },
+  "test_8_admin": {
+    "status": "PASSED",
+    "admin_users_status": 200,
+    "regular_user_denial_status": 403,
+    "analytics_status": 200,
+    "model_versions_status": 200,
+    "breed_management_status": 201,
+    "rbac_enforced": true
+  },
+  "test_9_database": {
+    "status": "PASSED",
+    "total_records": 2,
+    "fields_verified": [
+      "image",
+      "animal_type",
+      "breed",
+      "confidence",
+      "top_3",
+      "model_version",
+      "timestamp",
+      "inference_latency"
+    ]
+  },
+  "test_10_onnx": {
+    "status": "PASSED",
+    "onnx_model_path": "models\\onnx\\efficientnet_b0.onnx",
+    "pytorch_latency_ms": 59.81,
+    "onnx_latency_ms": 20.36,
+    "speedup_ratio": 2.94,
+    "max_logit_difference": 2.1606683731079102e-07,
+    "predictions_consistent": true
+  },
+  "test_11_performance": {
+    "status": "PASSED",
+    "yolo_latency_ms": 123.7,
+    "efficientnet_latency_ms": 54.78,
+    "gradcam_latency_ms": 264.77,
+    "total_ai_latency_ms": 443.25,
+    "api_response_latency_ms": 734.67
+  }
+}

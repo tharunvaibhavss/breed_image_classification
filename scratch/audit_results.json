@@ -1,0 +1,153 @@
+{
+  "dataset": {
+    "real_train_count": 382,
+    "synth_train_count": 2079,
+    "total_train_count": 2461,
+    "validation_count": 84,
+    "validation_real_count": 84,
+    "validation_synth_count": 0,
+    "test_count": 123,
+    "test_real_count": 123,
+    "test_synth_count": 0,
+    "total_classes": 82,
+    "cattle_classes": 59,
+    "buffalo_classes": 23,
+    "val_is_100_real": true,
+    "test_is_100_real": true
+  },
+  "independence": {
+    "test_train_exact": 0,
+    "test_train_near": 2,
+    "test_val_exact": 0,
+    "test_val_near": 0,
+    "synth_test_exact": 0,
+    "synth_test_near": 0
+  },
+  "synthetic_reference_leakage": {
+    "breeds_with_zero_real_train": [],
+    "synth_images_from_zero_train_breeds": 0,
+    "total_synthetic_images": 2079,
+    "potential_leakage_count": 0
+  },
+  "metrics": {
+    "acc": 0.36585365853658536,
+    "top3_acc": 0.5040650406504065,
+    "macro_p": 0.2034070360019727,
+    "macro_r": 0.24367088607594936,
+    "macro_f1": 0.21405710612709872,
+    "weighted_p": 0.2853614542638933,
+    "weighted_r": 0.36585365853658536,
+    "weighted_f1": 0.3087813111485996,
+    "unique_pred": 40
+  },
+  "species": {
+    "cattle_n": 90,
+    "cattle_acc": 0.35555555555555557,
+    "cattle_top3": 0.4888888888888889,
+    "cattle_p": 0.17277905785970302,
+    "cattle_r": 0.1932795698924731,
+    "cattle_f1": 0.17620676814225197,
+    "buffalo_n": 33,
+    "buffalo_acc": 0.3939393939393939,
+    "buffalo_top3": 0.5454545454545454,
+    "buffalo_p": 0.2614942528735632,
+    "buffalo_r": 0.25057471264367814,
+    "buffalo_f1": 0.24367816091954023
+  },
+  "onnx_parity": {
+    "identical": 123,
+    "differing": 0,
+    "agreement_pct": 100.0,
+    "max_prob_diff": 2.86102294921875e-06
+  },
+  "application": {
+    "default_model_version": "efficientnet_b0_82_breeds_v2",
+    "loaded_classes": 82,
+    "v3_configured_in_api": false,
+    "preprocessor_target_size": [
+      224,
+      224
+    ],
+    "normalization_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalization_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "reproducibility": {
+    "python_version": "3.13.2",
+    "pytorch_version": "2.13.0+cpu",
+    "torchvision_version": "0.28.0+cpu",
+    "onnx_version": "1.22.0",
+    "onnxruntime_version": "1.29.0",
+    "fastapi_version": "0.139.2",
+    "os": "Windows 10 (10.0.19045)",
+    "cpu": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "input_size": "224x224 (CenterCrop) after 256 Resize",
+    "checkpoint": "best_model_v3.pth",
+    "class_mapping": "class_mapping_v3.json",
+    "seed": 42
+  },
+  "files": {
+    "final_model_checkpoint": {
+      "exists": true,
+      "size_bytes": 16746609,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\models\\synthetic_82_breeds_v3\\final_model_v3.pth"
+    },
+    "best_model_checkpoint": {
+      "exists": true,
+      "size_bytes": 16730627,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\models\\synthetic_82_breeds_v3\\best_model_v3.pth"
+    },
+    "class_mapping": {
+      "exists": true,
+      "size_bytes": 9920,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\models\\synthetic_82_breeds_v3\\class_mapping_v3.json"
+    },
+    "test_manifest": {
+      "exists": true,
+      "size_bytes": 110599,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\reports\\dataset_expansion_v2\\split_manifest_v2.csv"
+    },
+    "evaluation_report": {
+      "exists": true,
+      "size_bytes": 1616,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\reports\\synthetic_v3\\final_model_evaluation_v3.md"
+    },
+    "classification_report": {
+      "exists": true,
+      "size_bytes": 2823,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\reports\\synthetic_v3\\classification_report_v3.csv"
+    },
+    "confusion_matrix": {
+      "exists": true,
+      "size_bytes": 14966,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\reports\\synthetic_v3\\confusion_matrix_v3.csv"
+    },
+    "training_configuration": {
+      "exists": true,
+      "size_bytes": 625,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\models\\synthetic_82_breeds_v3\\training_config_v3.json"
+    },
+    "synthetic_metadata": {
+      "exists": true,
+      "size_bytes": 1197080,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\reports\\synthetic_v3\\synthetic_metadata_v3.csv"
+    },
+    "leakage_report": {
+      "exists": true,
+      "size_bytes": 1556,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\reports\\synthetic_v3\\leakage_report_v3.md"
+    },
+    "onnx_model": {
+      "exists": true,
+      "size_bytes": 654567,
+      "path": "c:\\Users\\HP\\Desktop\\MCA Project\\MCA Project AI Breed\\models\\synthetic_82_breeds_v3\\efficientnet_b0_v3.onnx"
+    }
+  }
+}
